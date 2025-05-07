@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaDimensiones"
   DTS:PackageType="5"
-  DTS:VersionBuild="156"
-  DTS:VersionGUID="{86A74994-CDD9-45F9-9B2A-7393DAA67964}">
+  DTS:VersionBuild="195"
+  DTS:VersionGUID="{49ECCBC3-9FF8-4A30-9969-3BBCB89A1871}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -198,7 +198,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=staging_area;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-CargaDimensiones-{BA34EDC3-D173-4B3C-A5EC-D9D87EB0DF19}localhost.staging_area;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=staging_area;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-CargaDimensiones-{BA34EDC3-D173-4B3C-A5EC-D9D87EB0DF19}localhost.staging_area;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -210,7 +210,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=staging_area;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-CargaDimensiones-{9A5B4260-5833-4B22-8AE9-F290C1963965}localhost.staging_area 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=staging_area;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-CargaDimensiones-{9A5B4260-5833-4B22-8AE9-F290C1963965}localhost.staging_area 1;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -236,16 +236,15 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 0"
-              DTS:DTSID="{27B23342-F88D-432B-AA7A-11E03BDD8CDD}"
+              DTS:DTSID="{F04FE351-57E1-4192-A349-FFC93A2FDFD4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Unnamed  0"
-              DTS:DTSID="{D7719785-B80D-4AB9-A2B1-12AEA1401FD3}"
+              DTS:DTSID="{508972EC-8013-4040-853D-0968ADD9A7B8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -254,7 +253,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="addr_state"
-              DTS:DTSID="{4B326068-54B9-4574-98B0-3D14D024C0A6}"
+              DTS:DTSID="{9AEB747A-BB45-4681-B8FE-C7B36CFC5CF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -262,7 +261,7 @@
               DTS:DataType="14"
               DTS:TextQualified="True"
               DTS:ObjectName="annual_inc"
-              DTS:DTSID="{07A597AE-B510-4EDE-953A-D0DE5F212D0F}"
+              DTS:DTSID="{CBE60D55-0027-4E6C-9786-DC405BCE4E1A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -271,7 +270,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amnt"
-              DTS:DTSID="{4E486375-AC04-4E95-9949-C8D7EA36B319}"
+              DTS:DTSID="{66F162A4-FDC2-4787-BA7F-49E6784CF4B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -280,7 +279,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="int_rate"
-              DTS:DTSID="{7F4D6F28-A6FE-4E0F-8104-649520B71386}"
+              DTS:DTSID="{CEBCA7BC-A9F5-417D-8536-D440367B5F05}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -289,7 +288,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="purpose"
-              DTS:DTSID="{D34EAE2F-B9A5-49B9-8BD9-348C165E61D7}"
+              DTS:DTSID="{C58CA9BE-D663-49A2-A3C2-A592ABAE75F6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -298,7 +297,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_type"
-              DTS:DTSID="{EB684946-194C-4674-A08E-6C25454A06D1}"
+              DTS:DTSID="{37422C1D-CA60-4A30-ACDD-56AB0FE1E4CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -307,7 +306,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="term"
-              DTS:DTSID="{B19CC2B5-24C5-44B9-9CF2-67A094E43C84}"
+              DTS:DTSID="{24FC4A76-A17C-41E2-B72D-012CEE3395B2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -316,7 +315,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_status"
-              DTS:DTSID="{2E312A3E-62C6-4660-A6CC-43FB5F660597}"
+              DTS:DTSID="{3D2A7061-C065-4B74-A355-EBAC6299ED8F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -325,7 +324,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="earliest_cr_line"
-              DTS:DTSID="{874F6F57-AD81-4006-8522-DD9529046371}"
+              DTS:DTSID="{6692B3F5-F037-4EDD-BE8B-E075B8D2DB44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -333,7 +332,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="issue_d"
-              DTS:DTSID="{CA2AF2C3-60BD-4ECD-8923-203CF020CA5C}"
+              DTS:DTSID="{690F86C6-79CA-495B-8976-B136CFBE63D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -342,7 +341,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id_prestatario"
-              DTS:DTSID="{012F0451-C892-4412-8535-AA5862AE3967}"
+              DTS:DTSID="{F276668C-3080-442B-88CB-71B396A660A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -351,7 +350,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_desc"
-              DTS:DTSID="{E83C7BC7-35B9-4BC6-9C6E-95EE9D1968BF}"
+              DTS:DTSID="{A17AA28A-9FC4-4C0F-B9F5-73BC4D555544}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -360,7 +359,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="descuento"
-              DTS:DTSID="{5813E3BD-D2AF-43D4-9E45-D7BFF56A68B9}"
+              DTS:DTSID="{7FE3A872-0E2C-4D53-BE89-4939B5041954}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -369,7 +368,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_tasa"
-              DTS:DTSID="{6229753B-3394-4E88-8C04-5855A9826D49}"
+              DTS:DTSID="{81CA28C4-FE57-4909-8D51-4ABD3D1C839E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -398,16 +397,16 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Estado"
-              DTS:DTSID="{676CECA9-63BE-4D82-8506-A686522413F6}"
+              DTS:DTSID="{7679FCA9-3341-4089-ADD6-60FBDDBBA43B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="100"
+              DTS:MaximumWidth="30"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Region"
-              DTS:DTSID="{FAE13CD5-F73F-40F6-BACD-E32D51D1D9AC}"
+              DTS:DTSID="{EA3EBB0C-9632-4FF9-B46A-CF57F10704D9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1695,6 +1694,98 @@ where [refTable].[estado] = ?</property>
           version="1">
           <components>
             <component
+              refId="Package\Carga Fecha\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input].Columns[loan_status]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="loan_status"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Conditional Split.Outputs[fully paid]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="fully paid"
+                  synchronousInputId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]} == "Fully Paid"</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">loan_status == "Fully Paid"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Carga Fecha\Data Conversion"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -1710,7 +1801,7 @@ where [refTable].[estado] = ?</property>
                       refId="Package\Carga Fecha\Data Conversion.Inputs[Data Conversion Input].Columns[issue_d]"
                       cachedDataType="date"
                       cachedName="issue_d"
-                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]" />
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]" />
                     <inputColumn
                       refId="Package\Carga Fecha\Data Conversion.Inputs[Data Conversion Input].Columns[FlagFinDeSemana]"
                       cachedDataType="i4"
@@ -1745,7 +1836,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -1820,6 +1911,83 @@ where [refTable].[estado] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Carga Fecha\Data Conversion 1"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Data Conversion 1.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Data Conversion 1.Inputs[Data Conversion Input].Columns[term]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="term"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Carga Fecha\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of term]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of term]"
+                      name="Copy of term"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Carga Fecha\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Carga Fecha\Derived Column"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -1838,7 +2006,7 @@ where [refTable].[estado] = ?</property>
                       cachedName="issue_d"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]"
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]"
                       name="fecha"
                       truncationRowDisposition="FailComponent"
                       usageType="readWrite">
@@ -1847,7 +2015,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}</property>
+                          name="Expression">(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1881,13 +2049,13 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[DATEPART]("week",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]})</property>
+                          name="Expression">[DATEPART]("week",(DT_DATE)(#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}))</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">DATEPART("week",(DT_DATE)fecha)</property>
+                          name="FriendlyExpression">DATEPART("week",(DT_DATE)(fecha))</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1903,7 +2071,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[DATEPART]("month",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]})</property>
+                          name="Expression">[DATEPART]("month",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1925,7 +2093,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]})</property>
+                          name="Expression">[DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1947,7 +2115,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[DATEPART]("quarter",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]})</property>
+                          name="Expression">[DATEPART]("quarter",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1969,7 +2137,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">([DATEPART]("quarter",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) &lt;= 2) ? 1 : 2</property>
+                          name="Expression">([DATEPART]("quarter",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) &lt;= 2) ? 1 : 2</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1991,7 +2159,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">([DATEPART]("weekday",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) == 1 || [DATEPART]("weekday",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) == 7) ? 1 : 0</property>
+                          name="Expression">([DATEPART]("weekday",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) == 1 || [DATEPART]("weekday",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) == 7) ? 1 : 0</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -2013,7 +2181,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(([DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) % 4 == 0 &amp;&amp; [DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) % 100 != 0) || ([DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}) % 400 == 0)) ? 1 : 0</property>
+                          name="Expression">(([DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) % 4 == 0 &amp;&amp; [DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) % 100 != 0) || ([DATEPART]("year",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}) % 400 == 0)) ? 1 : 0</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -2035,7 +2203,7 @@ where [refTable].[estado] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[DATEPART]("day",(DT_DATE)#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]})</property>
+                          name="Expression">[DATEPART]("day",(DT_DATE)#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -2073,6 +2241,206 @@ where [refTable].[estado] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Carga Fecha\Derived Column 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Derived Column 1.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Derived Column 1.Inputs[Derived Column Input].Columns[term]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="term"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)([TRIM]([REPLACE](#{Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]},"months","")))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)(TRIM(REPLACE(term,"months","")))</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Carga Fecha\Derived Column 1.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Carga Fecha\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga Fecha\Derived Column 2"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column 2"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input].Columns[issue_d]"
+                      cachedDataType="date"
+                      cachedName="issue_d"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[issue_d]" />
+                    <inputColumn
+                      refId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input].Columns[Copy of term]"
+                      cachedDataType="i4"
+                      cachedName="Copy of term"
+                      lineageId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of term]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Output].Columns[Fecha_fin]"
+                      dataType="date"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Output].Columns[Fecha_fin]"
+                      name="Fecha_fin"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_DATE)[DATEADD]("MONTH",#{Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output].Columns[Copy of term]},#{Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[issue_d]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DATE)DATEADD("MONTH",[Copy of term],issue_d)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga Fecha\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Multicast.Outputs[Multicast Output 2]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 2"
+                  synchronousInputId="Package\Carga Fecha\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Multicast.Outputs[Multicast Output 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Carga Fecha\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Fecha\Multicast.Outputs[Multicast Output 3]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 3"
+                  synchronousInputId="Package\Carga Fecha\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Carga Fecha\Prestamos"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -2104,6 +2472,50 @@ where [refTable].[estado] = ?</property>
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
+                      refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[term]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[term]"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[term]"
+                      name="term"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[loan_status]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[loan_status]"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[loan_status]"
+                      name="loan_status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]"
                       dataType="date"
                       errorOrTruncationOperation="Conversion"
@@ -2111,6 +2523,28 @@ where [refTable].[estado] = ?</property>
                       externalMetadataColumnId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[issue_d]"
                       lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]"
                       name="issue_d"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[Column 0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[Column 0]"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[Column 0]"
+                      name="Column 0"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -2134,9 +2568,7 @@ where [refTable].[estado] = ?</property>
                       name="Column 0" />
                     <externalMetadataColumn
                       refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[Unnamed  0]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="Unnamed  0" />
                     <externalMetadataColumn
                       refId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].ExternalColumns[addr_state]"
@@ -3149,7 +3581,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       refId="Package\Carga Fecha\Script Component.Inputs[Input 0].Columns[issue_d]"
                       cachedDataType="date"
                       cachedName="issue_d"
-                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]" />
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3172,6 +3604,174 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       length="10"
                       lineageId="Package\Carga Fecha\Script Component.Outputs[Output 0].Columns[NombreMes]"
                       name="NombreMes" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga Fecha\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Sort.Inputs[Sort Input].Columns[issue_d]"
+                      cachedDataType="date"
+                      cachedName="issue_d"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Sort.Inputs[Sort Input].Columns[loan_status]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="loan_status"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[loan_status]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Sort.Inputs[Sort Input].Columns[term]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="term"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[term]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Sort.Inputs[Sort Input].Columns[Column 0]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Column 0"
+                      lineageId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[Column 0]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[issue_d]"
+                      dataType="date"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[issue_d]"
+                      name="issue_d"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]"
+                      name="loan_status"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[loan_status]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]"
+                      name="term">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[term]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[Column 0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[Column 0]"
+                      name="Column 0">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output].Columns[Column 0]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -3386,6 +3986,192 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                 </input>
               </inputs>
             </component>
+            <component
+              refId="Package\Carga Fecha\Union All"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Carga Fecha\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 1].Columns[issue_d]"
+                      cachedDataType="date"
+                      cachedName="issue_d"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[issue_d]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 1].Columns[loan_status]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="loan_status"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[loan_status]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 1].Columns[term]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="term"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[term]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 1].Columns[Column 0]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Column 0"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[Column 0]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[Column 0]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Carga Fecha\Union All.Inputs[Union All Input 2]"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 2].Columns[loan_status]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="loan_status"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[loan_status]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[loan_status]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 2].Columns[term]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="term"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[term]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[term]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 2].Columns[Column 0]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Column 0"
+                      lineageId="Package\Carga Fecha\Sort.Outputs[Sort Output].Columns[Column 0]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[Column 0]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Fecha\Union All.Inputs[Union All Input 2].Columns[Fecha_fin]"
+                      cachedDataType="date"
+                      cachedName="Fecha_fin"
+                      lineageId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Output].Columns[Fecha_fin]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Carga Fecha\Union All.Inputs[Union All Input 3]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Fecha\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]"
+                      dataType="date"
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[issue_d]"
+                      name="issue_d" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[loan_status]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[loan_status]"
+                      name="loan_status" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[term]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[term]"
+                      name="term" />
+                    <outputColumn
+                      refId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[Column 0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Carga Fecha\Union All.Outputs[Union All Output 1].Columns[Column 0]"
+                      name="Column 0" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -3394,20 +4180,60 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               name="Data Conversion Output"
               startId="Package\Carga Fecha\Data Conversion.Outputs[Data Conversion Output]" />
             <path
+              refId="Package\Carga Fecha.Paths[Data Conversion Output1]"
+              endId="Package\Carga Fecha\Derived Column 2.Inputs[Derived Column Input]"
+              name="Data Conversion Output"
+              startId="Package\Carga Fecha\Data Conversion 1.Outputs[Data Conversion Output]" />
+            <path
               refId="Package\Carga Fecha.Paths[Derived Column Output]"
               endId="Package\Carga Fecha\Script Component.Inputs[Input 0]"
               name="Derived Column Output"
               startId="Package\Carga Fecha\Derived Column.Outputs[Derived Column Output]" />
             <path
+              refId="Package\Carga Fecha.Paths[Derived Column Output1]"
+              endId="Package\Carga Fecha\Data Conversion 1.Inputs[Data Conversion Input]"
+              name="Derived Column Output"
+              startId="Package\Carga Fecha\Derived Column 1.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Carga Fecha.Paths[Derived Column Output2]"
+              endId="Package\Carga Fecha\Union All.Inputs[Union All Input 2]"
+              name="Derived Column Output"
+              startId="Package\Carga Fecha\Derived Column 2.Outputs[Derived Column Output]" />
+            <path
               refId="Package\Carga Fecha.Paths[Flat File Source Output]"
-              endId="Package\Carga Fecha\Derived Column.Inputs[Derived Column Input]"
+              endId="Package\Carga Fecha\Sort.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Carga Fecha\Prestamos.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Carga Fecha.Paths[fully paid]"
+              endId="Package\Carga Fecha\Derived Column 1.Inputs[Derived Column Input]"
+              name="fully paid"
+              startId="Package\Carga Fecha\Conditional Split.Outputs[fully paid]" />
+            <path
+              refId="Package\Carga Fecha.Paths[Multicast Output 1]"
+              endId="Package\Carga Fecha\Union All.Inputs[Union All Input 1]"
+              name="Multicast Output 1"
+              startId="Package\Carga Fecha\Multicast.Outputs[Multicast Output 1]" />
+            <path
+              refId="Package\Carga Fecha.Paths[Multicast Output 2]"
+              endId="Package\Carga Fecha\Conditional Split.Inputs[Conditional Split Input]"
+              name="Multicast Output 2"
+              startId="Package\Carga Fecha\Multicast.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Carga Fecha.Paths[Output 0]"
               endId="Package\Carga Fecha\Data Conversion.Inputs[Data Conversion Input]"
               name="Output 0"
               startId="Package\Carga Fecha\Script Component.Outputs[Output 0]" />
+            <path
+              refId="Package\Carga Fecha.Paths[Sort Output]"
+              endId="Package\Carga Fecha\Multicast.Inputs[Multicast Input 1]"
+              name="Sort Output"
+              startId="Package\Carga Fecha\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga Fecha.Paths[Union All Output 1]"
+              endId="Package\Carga Fecha\Derived Column.Inputs[Derived Column Input]"
+              name="Union All Output 1"
+              startId="Package\Carga Fecha\Union All.Outputs[Union All Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4123,6 +4949,11 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="decimal"
                       cachedName="annual_inc"
                       lineageId="Package\Carga Prestatario\Sort.Outputs[Sort Output].Columns[annual_inc]" />
+                    <inputColumn
+                      refId="Package\Carga Prestatario\Merge Join.Inputs[Merge Join Left Input].Columns[Unnamed  0]"
+                      cachedDataType="i4"
+                      cachedName="Unnamed  0"
+                      lineageId="Package\Carga Prestatario\Sort.Outputs[Sort Output].Columns[Unnamed  0]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -4332,7 +5163,58 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           name="InputColumnID">#{Package\Carga Prestatario\Merge Join.Inputs[Merge Join Right Input].Columns[nombre completo]}</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Prestatario\Merge Join.Outputs[Merge Join Output].Columns[IdPrestamo]"
+                      dataType="i4"
+                      lineageId="Package\Carga Prestatario\Merge Join.Outputs[Merge Join Output].Columns[IdPrestamo]"
+                      name="IdPrestamo">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Prestatario\Merge Join.Inputs[Merge Join Left Input].Columns[Unnamed  0]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga Prestatario\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Carga Prestatario\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Prestatario\Multicast.Outputs[Multicast Output 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Carga Prestatario\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Prestatario\Multicast.Outputs[Multicast Output 2]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 2"
+                  synchronousInputId="Package\Carga Prestatario\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga Prestatario\Multicast.Outputs[Multicast Output 3]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 3"
+                  synchronousInputId="Package\Carga Prestatario\Multicast.Inputs[Multicast Input 1]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -4392,12 +5274,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[Unnamed  0]"
-                      codePage="65001"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[Unnamed  0]"
-                      length="50"
                       lineageId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[Unnamed  0]"
                       name="Unnamed  0"
                       truncationRowDisposition="FailComponent">
@@ -4722,9 +5602,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       name="Column 0" />
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[Unnamed  0]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="Unnamed  0" />
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[addr_state]"
@@ -4888,6 +5766,22 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Prestatario\Sort.Inputs[Sort Input].Columns[Unnamed  0]"
+                      cachedDataType="i4"
+                      cachedName="Unnamed  0"
+                      lineageId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[Unnamed  0]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -4924,6 +5818,19 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[id_prestatario]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Prestatario\Sort.Outputs[Sort Output].Columns[Unnamed  0]"
+                      dataType="i4"
+                      lineageId="Package\Carga Prestatario\Sort.Outputs[Sort Output].Columns[Unnamed  0]"
+                      name="Unnamed  0">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[Unnamed  0]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -5437,6 +6344,120 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                 </input>
               </inputs>
             </component>
+            <component
+              refId="Package\Carga Prestatario\SQL Server Destination 1"
+              componentClassID="Microsoft.SQLServerDestination"
+              contactInfo="SQL Server Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;5"
+              description="SQL Server Destination"
+              name="SQL Server Destination 1"
+              version="5">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.String"
+                  description="The name of the database object to copy data into."
+                  expressionType="Notify"
+                  name="BulkInsertTableName">[dbo].[staging_prestatario_prestamo]</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that any constraints on the destination object are checked during the data copy operation. Corresponds to the bulk insert CHECK_CONSTRAINTS option."
+                  name="BulkInsertCheckConstraints">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of the first row to copy. Corresponds to the bulk insert FIRSTROW option."
+                  expressionType="Notify"
+                  name="BulkInsertFirstRow">-1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that any insert triggers defined on the destination object will execute during the data copy. Corresponds to the bulk insert FIRE_TRIGGERS option."
+                  name="BulkInsertFireTriggers">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Corresponds to the bulk insert KEEPIDENTITY option."
+                  name="BulkInsertKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null copied to the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="BulkInsertKeepNulls">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of the last row to copy. Corresponds to the bulk insert LASTROW option."
+                  expressionType="Notify"
+                  name="BulkInsertLastRow">-1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of syntax errors and compilation errors that can occur before the data copy operation is canceled. Each row that cannot be copied is ignored and counted as one error. Corresponds to the bulk insert MAXERRORS option."
+                  name="BulkInsertMaxErrors">-1</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies how the data to be copied is sorted. Corresponds to the bulk insert ORDER option."
+                  expressionType="Notify"
+                  name="BulkInsertOrder"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that a table-level lock is acquired for the duration of the data copy operation. Corresponds to the bulk insert TABLOCK option."
+                  name="BulkInsertTablock">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies in seconds the amount of time the SQL Destination adapter will wait before terminating if there is no data available for insertion.  A timeout value of 0 means the SQL Destination adapter will not time out."
+                  expressionType="Notify"
+                  name="Timeout">30</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion."
+                  name="MaxInsertCommitSize">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga Prestatario\SQL Server Destination 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.staging_area]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.staging_area]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input]"
+                  hasSideEffects="true"
+                  name="SQL Server Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].Columns[IdPrestamo]"
+                      cachedDataType="i4"
+                      cachedName="IdPrestamo"
+                      externalMetadataColumnId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].ExternalColumns[idPrestamo]"
+                      lineageId="Package\Carga Prestatario\Merge Join.Outputs[Merge Join Output].Columns[IdPrestamo]" />
+                    <inputColumn
+                      refId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].Columns[id]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="id"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].ExternalColumns[idPrestatario]"
+                      lineageId="Package\Carga Prestatario\Merge Join.Outputs[Merge Join Output].Columns[id]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].ExternalColumns[idPrestatario]"
+                      dataType="wstr"
+                      length="50"
+                      name="idPrestatario" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input].ExternalColumns[idPrestamo]"
+                      dataType="i4"
+                      name="idPrestamo" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
           </components>
           <paths>
             <path
@@ -5461,9 +6482,19 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               startId="Package\Carga Prestatario\Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Carga Prestatario.Paths[Merge Join Output]"
-              endId="Package\Carga Prestatario\Lookup.Inputs[Lookup Input]"
+              endId="Package\Carga Prestatario\Multicast.Inputs[Multicast Input 1]"
               name="Merge Join Output"
               startId="Package\Carga Prestatario\Merge Join.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Carga Prestatario.Paths[Multicast Output 1]"
+              endId="Package\Carga Prestatario\Lookup.Inputs[Lookup Input]"
+              name="Multicast Output 1"
+              startId="Package\Carga Prestatario\Multicast.Outputs[Multicast Output 1]" />
+            <path
+              refId="Package\Carga Prestatario.Paths[Multicast Output 2]"
+              endId="Package\Carga Prestatario\SQL Server Destination 1.Inputs[SQL Server Destination Input]"
+              name="Multicast Output 2"
+              startId="Package\Carga Prestatario\Multicast.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Carga Prestatario.Paths[Sort Output]"
               endId="Package\Carga Prestatario\Merge Join.Inputs[Merge Join Left Input]"
@@ -6589,7 +7620,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     <inputColumn
                       refId="Package\Carga Ubicacion\Merge Join.Inputs[Merge Join Right Input].Columns[Region]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="30"
                       cachedName="Region"
                       lineageId="Package\Carga Ubicacion\Sort 1.Outputs[Sort Output].Columns[Region]" />
                   </inputColumns>
@@ -6708,7 +7739,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga Ubicacion\Regiones.Outputs[Flat File Source Output].ExternalColumns[Region]"
-                      length="100"
+                      length="30"
                       lineageId="Package\Carga Ubicacion\Regiones.Outputs[Flat File Source Output].Columns[Region]"
                       name="Region"
                       truncationRowDisposition="FailComponent">
@@ -6734,7 +7765,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     <externalMetadataColumn
                       refId="Package\Carga Ubicacion\Regiones.Outputs[Flat File Source Output].ExternalColumns[Region]"
                       dataType="wstr"
-                      length="100"
+                      length="30"
                       name="Region" />
                   </externalMetadataColumns>
                 </output>
@@ -6912,7 +7943,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     <inputColumn
                       refId="Package\Carga Ubicacion\Sort 1.Inputs[Sort Input].Columns[Region]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="30"
                       cachedName="Region"
                       lineageId="Package\Carga Ubicacion\Regiones.Outputs[Flat File Source Output].Columns[Region]">
                       <properties>
@@ -6954,7 +7985,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     <outputColumn
                       refId="Package\Carga Ubicacion\Sort 1.Outputs[Sort Output].Columns[Region]"
                       dataType="wstr"
-                      length="100"
+                      length="30"
                       lineageId="Package\Carga Ubicacion\Sort 1.Outputs[Sort Output].Columns[Region]"
                       name="Region">
                       <properties>
@@ -7168,196 +8199,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           SQLTask:SqlStatementSource="TRUNCATE TABLE regiones_staging" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Prueba carga fecha"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{10A04C50-477F-4029-A1CB-5429E22D2FC8}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Prueba carga fecha"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\Prueba carga fecha\Flat File Source"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="1033"
-              name="Flat File Source"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Prueba carga fecha\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[prestamos]"
-                  connectionManagerRefId="Package.ConnectionManagers[prestamos]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].Columns[issue_d]"
-                      dataType="date"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[issue_d]"
-                      lineageId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].Columns[issue_d]"
-                      name="issue_d"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 0]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Column 0" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Unnamed  0]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Unnamed  0" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[addr_state]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="addr_state" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[annual_inc]"
-                      dataType="decimal"
-                      name="annual_inc" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[loan_amnt]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="loan_amnt" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[int_rate]"
-                      dataType="wstr"
-                      length="50"
-                      name="int_rate" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[purpose]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="purpose" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[loan_type]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="loan_type" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[term]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="term" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[loan_status]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="loan_status" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[earliest_cr_line]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="earliest_cr_line" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[issue_d]"
-                      dataType="date"
-                      name="issue_d" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id_prestatario]"
-                      dataType="wstr"
-                      length="50"
-                      name="id_prestatario" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[tipo_desc]"
-                      dataType="wstr"
-                      length="50"
-                      name="tipo_desc" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[descuento]"
-                      dataType="wstr"
-                      length="30"
-                      name="descuento" />
-                    <externalMetadataColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[tipo_tasa]"
-                      dataType="wstr"
-                      length="50"
-                      name="tipo_tasa" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output]"
-                  isErrorOut="true"
-                  name="Flat File Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="65001"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Prueba carga fecha\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -7424,7 +8265,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="142,42"
           Id="Package\Carga Fecha"
-          TopLeft="637,202" />
+          TopLeft="648,199" />
         <NodeLayout
           Size="165,42"
           Id="Package\Carga Prestatario"
@@ -7436,7 +8277,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="136,42"
           Id="Package\Carga Tasa"
-          TopLeft="465,204" />
+          TopLeft="463,195" />
         <NodeLayout
           Size="160,42"
           Id="Package\Carga Ubicacion"
@@ -7444,7 +8285,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="170,42"
           Id="Package\Execute SQL Task"
-          TopLeft="308,89" />
+          TopLeft="293,75" />
         <NodeLayout
           Size="179,42"
           Id="Package\Execute SQL Task 2"
@@ -7473,30 +8314,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="366,131">
+          TopLeft="329.4,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-209,71"
+              EndConnector="-172.4,85"
               Start="0,0"
-              End="-209,63.5">
+              End="-172.4,77.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.7972027972028" />
+                    End="0,21.4859967051071" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.7972027972028"
-                    Point2="0,28.7972027972028"
-                    Point3="-4,28.7972027972028" />
+                    Point1="0,21.4859967051071"
+                    Point2="0,25.4859967051071"
+                    Point3="-4,25.4859967051071" />
                   <mssgle:LineSegment
-                    End="-205,28.7972027972028" />
+                    End="-168.4,25.4859967051071" />
                   <mssgle:CubicBezierSegment
-                    Point1="-205,28.7972027972028"
-                    Point2="-209,28.7972027972028"
-                    Point3="-209,32.7972027972028" />
+                    Point1="-168.4,25.4859967051071"
+                    Point2="-172.4,25.4859967051071"
+                    Point3="-172.4,29.4859967051071" />
                   <mssgle:LineSegment
-                    End="-209,63.5" />
+                    End="-172.4,77.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7507,30 +8348,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="393,131">
+          TopLeft="357.935501489573,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-38.928997020854,64.5"
+              EndConnector="0,78.5"
               Start="0,0"
-              End="-38.928997020854,57">
+              End="0,71">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.25"
-                    Point2="0,32.25"
-                    Point3="-4,32.25" />
-                  <mssgle:LineSegment
-                    End="-34.928997020854,32.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-34.928997020854,32.25"
-                    Point2="-38.928997020854,32.25"
-                    Point3="-38.928997020854,36.25" />
-                  <mssgle:LineSegment
-                    End="-38.928997020854,57" />
+                    End="0,71" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7541,30 +8370,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="433.5,131">
+          TopLeft="394.2,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="99.5,73"
+              EndConnector="136.8,78"
               Start="0,0"
-              End="99.5,65.5">
+              End="136.8,70.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.0849420849421" />
+                    End="0,30.8920676202861" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.0849420849421"
-                    Point2="0,25.0849420849421"
-                    Point3="4,25.0849420849421" />
+                    Point1="0,30.8920676202861"
+                    Point2="0,34.8920676202861"
+                    Point3="4,34.8920676202861" />
                   <mssgle:LineSegment
-                    End="95.5,25.0849420849421" />
+                    End="132.8,34.8920676202861" />
                   <mssgle:CubicBezierSegment
-                    Point1="95.5,25.0849420849421"
-                    Point2="99.5,25.0849420849421"
-                    Point3="99.5,29.0849420849421" />
+                    Point1="132.8,34.8920676202861"
+                    Point2="136.8,34.8920676202861"
+                    Point3="136.8,38.8920676202861" />
                   <mssgle:LineSegment
-                    End="99.5,65.5" />
+                    End="136.8,70.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7575,30 +8404,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="441.6,131">
+          TopLeft="426.6,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="266.4,71"
+              EndConnector="292.4,82"
               Start="0,0"
-              End="266.4,63.5">
+              End="292.4,74.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.2883031301483" />
+                    End="0,20.5864909390445" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.2883031301483"
-                    Point2="0,21.2883031301483"
-                    Point3="4,21.2883031301483" />
+                    Point1="0,20.5864909390445"
+                    Point2="0,24.5864909390445"
+                    Point3="4,24.5864909390445" />
                   <mssgle:LineSegment
-                    End="262.4,21.2883031301483" />
+                    End="288.4,24.5864909390445" />
                   <mssgle:CubicBezierSegment
-                    Point1="262.4,21.2883031301483"
-                    Point2="266.4,21.2883031301483"
-                    Point3="266.4,25.2883031301483" />
+                    Point1="288.4,24.5864909390445"
+                    Point2="292.4,24.5864909390445"
+                    Point3="292.4,28.5864909390445" />
                   <mssgle:LineSegment
-                    End="266.4,63.5" />
+                    End="292.4,74.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7607,10 +8436,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Prueba carga fecha"
-          TopLeft="323,331" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -7618,30 +8443,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\Carga Descuento">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="194,42"
           Id="Package\Carga Descuento\SQL Server Destination"
-          TopLeft="564,435" />
+          TopLeft="300,409" />
         <NodeLayout
           Size="158,42"
           Id="Package\Carga Descuento\Derived Column"
-          TopLeft="585,263" />
+          TopLeft="321,237" />
         <NodeLayout
           Size="132,42"
           Id="Package\Carga Descuento\Prestamos"
-          TopLeft="589,93" />
+          TopLeft="325,67" />
         <NodeLayout
           Size="161,42"
           Id="Package\Carga Descuento\Data Conversion"
-          TopLeft="586,349" />
+          TopLeft="322,323" />
         <NodeLayout
           Size="99,42"
           Id="Package\Carga Descuento\Sort"
-          TopLeft="613,181" />
+          TopLeft="349,155" />
         <EdgeLayout
           Id="Package\Carga Descuento.Paths[Derived Column Output]"
-          TopLeft="665.25,305">
+          TopLeft="401.25,279">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7658,12 +8483,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Descuento.Paths[Data Conversion Output]"
-          TopLeft="663.75,391">
+          TopLeft="399.75,365">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7680,12 +8507,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Descuento.Paths[Sort Output]"
-          TopLeft="663.25,223">
+          TopLeft="399.25,197">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7702,12 +8531,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Descuento.Paths[Flat File Source Output]"
-          TopLeft="658.75,135">
+          TopLeft="394.75,109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7724,7 +8555,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7790,7 +8623,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7860,7 +8695,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7901,53 +8738,81 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\Carga Fecha">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="167,42"
-          Id="Package\Carga Fecha\Script Component"
-          TopLeft="422,212" />
+          Id="Package\Carga Fecha\Derived Column 2"
+          TopLeft="31,358" />
         <NodeLayout
-          Size="132,42"
-          Id="Package\Carga Fecha\Prestamos"
-          TopLeft="435,35" />
+          Size="123,42"
+          Id="Package\Carga Fecha\Union All"
+          TopLeft="275,384" />
         <NodeLayout
           Size="194,42"
           Id="Package\Carga Fecha\SQL Server Destination"
-          TopLeft="437,405" />
+          TopLeft="514,442" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\Carga Fecha\Derived Column"
-          TopLeft="421,116" />
+          Size="167,42"
+          Id="Package\Carga Fecha\Script Component"
+          TopLeft="517,286" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Carga Fecha\Data Conversion 1"
+          TopLeft="31,307" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Carga Fecha\Multicast"
+          TopLeft="259,150" />
         <NodeLayout
           Size="161,42"
           Id="Package\Carga Fecha\Data Conversion"
-          TopLeft="405,294" />
+          TopLeft="523,354" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\Carga Fecha\Prestamos"
+          TopLeft="247,23" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Carga Fecha\Derived Column"
+          TopLeft="518,200" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Carga Fecha\Sort"
+          TopLeft="268,92" />
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Carga Fecha\Conditional Split"
+          TopLeft="40,207" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Carga Fecha\Derived Column 1"
+          TopLeft="38,259" />
         <EdgeLayout
-          Id="Package\Carga Fecha.Paths[Output 0]"
-          TopLeft="505.5,254">
+          Id="Package\Carga Fecha.Paths[Union All Output 1]"
+          TopLeft="355.666666666667,384">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-20,40"
+              EndConnector="216.333333333333,-142"
               Start="0,0"
-              End="-20,32.5">
+              End="216.333333333333,-134.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16" />
+                    End="0,-67.248549709942" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16"
-                    Point2="0,20"
-                    Point3="-4,20" />
+                    Point1="0,-67.248549709942"
+                    Point2="0,-71.248549709942"
+                    Point3="4,-71.248549709942" />
                   <mssgle:LineSegment
-                    End="-16,20" />
+                    End="212.333333333333,-71.248549709942" />
                   <mssgle:CubicBezierSegment
-                    Point1="-16,20"
-                    Point2="-20,20"
-                    Point3="-20,24" />
+                    Point1="212.333333333333,-71.248549709942"
+                    Point2="216.333333333333,-71.248549709942"
+                    Point3="216.333333333333,-75.248549709942" />
                   <mssgle:LineSegment
-                    End="-20,32.5" />
+                    End="216.333333333333,-134.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7957,19 +8822,247 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Fecha.Paths[Flat File Source Output]"
-          TopLeft="500.5,77">
+          Id="Package\Carga Fecha.Paths[Sort Output]"
+          TopLeft="268,113">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,39"
+              EndConnector="-9,52.3333333333333"
               Start="0,0"
-              End="0,31.5">
+              End="-16.5,52.3333333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5" />
+                    End="-27.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-27.5,0"
+                    Point2="-31.5,0"
+                    Point3="-31.5,4" />
+                  <mssgle:LineSegment
+                    End="-31.5,48.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-31.5,48.3333333333333"
+                    Point2="-31.5,52.3333333333333"
+                    Point3="-27.5,52.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-16.5,52.3333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Output 0]"
+          TopLeft="602,328">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Multicast Output 2]"
+          TopLeft="259,171">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-60,57"
+              Start="0,0"
+              End="-52.5,57">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-26,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-26,0"
+                    Point2="-30,0"
+                    Point3="-30,4" />
+                  <mssgle:LineSegment
+                    End="-30,53" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-30,53"
+                    Point2="-30,57"
+                    Point3="-34,57" />
+                  <mssgle:LineSegment
+                    End="-52.5,57" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Multicast Output 1]"
+          TopLeft="320.5,192">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16,192"
+              Start="0,0"
+              End="16,184.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,92" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,92"
+                    Point2="0,96"
+                    Point3="4,96" />
+                  <mssgle:LineSegment
+                    End="12,96" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12,96"
+                    Point2="16,96"
+                    Point3="16,100" />
+                  <mssgle:LineSegment
+                    End="16,184.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[fully paid]"
+          TopLeft="40,228">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-2,52"
+              Start="0,0"
+              End="-9.5,52">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-20.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-20.5,0"
+                    Point2="-24.5,0"
+                    Point3="-24.5,4" />
+                  <mssgle:LineSegment
+                    End="-24.5,48" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-24.5,48"
+                    Point2="-24.5,52"
+                    Point3="-20.5,52" />
+                  <mssgle:LineSegment
+                    End="-9.5,52" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-45.12083984375,-17.658203125,41.2416796875,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Flat File Source Output]"
+          TopLeft="315.25,65">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Derived Column Output2]"
+          TopLeft="198,384.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77,20.3333333333333"
+              Start="0,0"
+              End="69.5,20.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.4954128440367,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.4954128440367,0"
+                    Point2="32.4954128440367,0"
+                    Point3="32.4954128440367,4" />
+                  <mssgle:LineSegment
+                    End="32.4954128440367,16.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.4954128440367,16.3333333333333"
+                    Point2="32.4954128440367,20.3333333333333"
+                    Point3="36.4954128440367,20.3333333333333" />
+                  <mssgle:LineSegment
+                    End="69.5,20.3333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Derived Column Output1]"
+          TopLeft="205,280">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-4,48"
+              Start="0,0"
+              End="3.5,48">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,0"
+                    Point2="22.5,0"
+                    Point3="22.5,4" />
+                  <mssgle:LineSegment
+                    End="22.5,44" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,44"
+                    Point2="22.5,48"
+                    Point3="18.5,48" />
+                  <mssgle:LineSegment
+                    End="3.5,48" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7980,18 +9073,52 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Fecha.Paths[Derived Column Output]"
-          TopLeft="502.75,158">
+          TopLeft="598.75,242">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,54"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,46.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.5" />
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fecha.Paths[Data Conversion Output1]"
+          TopLeft="201,333.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-3,45.3333333333333"
+              Start="0,0"
+              End="4.5,45.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,0"
+                    Point2="22.5,0"
+                    Point3="22.5,4" />
+                  <mssgle:LineSegment
+                    End="22.5,41.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,41.3333333333333"
+                    Point2="22.5,45.3333333333333"
+                    Point3="18.5,45.3333333333333" />
+                  <mssgle:LineSegment
+                    End="4.5,45.3333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8002,30 +9129,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Fecha.Paths[Data Conversion Output]"
-          TopLeft="485.5,336">
+          TopLeft="607.25,396">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="48.5,69"
+              EndConnector="0,46"
               Start="0,0"
-              End="48.5,61.5">
+              End="0,38.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.5"
-                    Point2="0,34.5"
-                    Point3="4,34.5" />
-                  <mssgle:LineSegment
-                    End="44.5,34.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.5,34.5"
-                    Point2="48.5,34.5"
-                    Point3="48.5,38.5" />
-                  <mssgle:LineSegment
-                    End="48.5,61.5" />
+                    End="0,38.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8049,174 +9164,208 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\Carga Prestatario">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Carga Prestatario\Merge Join"
-          TopLeft="120.5,405.5" />
-        <NodeLayout
-          Size="132,42"
-          Id="Package\Carga Prestatario\Prestamos"
-          TopLeft="72,49" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\Carga Prestatario\SQL Server Destination"
-          TopLeft="721,389" />
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="99,42"
           Id="Package\Carga Prestatario\Sort"
-          TopLeft="100,155" />
+          TopLeft="100,182" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Carga Prestatario\Merge Join"
+          TopLeft="106.5,401.5" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Carga Prestatario\SQL Server Destination 1"
+          TopLeft="398,526" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\Carga Prestatario\Prestamos"
+          TopLeft="72,76" />
+        <NodeLayout
+          Size="194,42"
+          Id="Package\Carga Prestatario\SQL Server Destination"
+          TopLeft="716,395" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Carga Prestatario\Multicast"
+          TopLeft="311,398" />
         <NodeLayout
           Size="108,42"
           Id="Package\Carga Prestatario\Sort 1"
-          TopLeft="232,266" />
+          TopLeft="232,293" />
         <NodeLayout
           Size="115,42"
           Id="Package\Carga Prestatario\Lookup"
-          TopLeft="474,406" />
+          TopLeft="481,401" />
         <NodeLayout
           Size="158,42"
           Id="Package\Carga Prestatario\Derived Column"
-          TopLeft="266,127" />
+          TopLeft="266,154" />
         <NodeLayout
           Size="119,42"
           Id="Package\Carga Prestatario\Clientes"
-          TopLeft="296,26" />
+          TopLeft="296,53" />
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Sort Output1]"
-          TopLeft="286,308">
+          TopLeft="286,335">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-78.1666666666667,97.5"
+              EndConnector="-92.1666666666667,66.5"
               Start="0,0"
-              End="-78.1666666666667,90">
+              End="-92.1666666666667,59">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.8046062407132" />
+                    End="0,35.425705794948" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,53.8046062407132"
-                    Point2="0,57.8046062407132"
-                    Point3="-4,57.8046062407132" />
+                    Point1="0,35.425705794948"
+                    Point2="0,39.425705794948"
+                    Point3="-4,39.425705794948" />
                   <mssgle:LineSegment
-                    End="-74.1666666666667,57.8046062407132" />
+                    End="-88.1666666666667,39.425705794948" />
                   <mssgle:CubicBezierSegment
-                    Point1="-74.1666666666667,57.8046062407132"
-                    Point2="-78.1666666666667,57.8046062407132"
-                    Point3="-78.1666666666667,61.8046062407132" />
+                    Point1="-88.1666666666667,39.425705794948"
+                    Point2="-92.1666666666667,39.425705794948"
+                    Point3="-92.1666666666667,43.425705794948" />
                   <mssgle:LineSegment
-                    End="-78.1666666666667,90" />
+                    End="-92.1666666666667,59" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Sort Output]"
-          TopLeft="149.5,197">
+          TopLeft="150.833333333333,224">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="16.6666666666667,208.5"
+              EndConnector="0,177.5"
               Start="0,0"
-              End="16.6666666666667,201">
+              End="0,170">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,119.612927191679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,119.612927191679"
-                    Point2="0,123.612927191679"
-                    Point3="4,123.612927191679" />
-                  <mssgle:LineSegment
-                    End="12.6666666666667,123.612927191679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12.6666666666667,123.612927191679"
-                    Point2="16.6666666666667,123.612927191679"
-                    Point3="16.6666666666667,127.612927191679" />
-                  <mssgle:LineSegment
-                    End="16.6666666666667,201" />
+                    End="0,170" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Prestatario.Paths[Multicast Output 2]"
+          TopLeft="372.5,440">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="127,86"
+              Start="0,0"
+              End="127,78.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39"
+                    Point2="0,43"
+                    Point3="4,43" />
+                  <mssgle:LineSegment
+                    End="123,43" />
+                  <mssgle:CubicBezierSegment
+                    Point1="123,43"
+                    Point2="127,43"
+                    Point3="127,47" />
+                  <mssgle:LineSegment
+                    End="127,78.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Prestatario.Paths[Multicast Output 1]"
+          TopLeft="434,420.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="47,0"
+              Start="0,0"
+              End="39.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="39.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Merge Join Output]"
-          TopLeft="253.5,426.75">
+          TopLeft="239.5,420.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="220.5,0"
+              EndConnector="71.5,0"
               Start="0,0"
-              End="213,0">
+              End="64,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="213,0" />
+                    End="64,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Lookup Match Output]"
-          TopLeft="589,427">
+          TopLeft="596,419">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="132,-17"
+              EndConnector="120,0"
               Start="0,0"
-              End="124.5,-17">
+              End="112.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="62,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="62,0"
-                    Point2="66,0"
-                    Point3="66,-4" />
-                  <mssgle:LineSegment
-                    End="66,-13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="66,-13"
-                    Point2="66,-17"
-                    Point3="70,-17" />
-                  <mssgle:LineSegment
-                    End="124.5,-17" />
+                    End="112.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="17.80861328125,1,96.3827734375,11.609375"
+              BoundingBox="8.05861328125,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Flat File Source Output1]"
-          TopLeft="138,91">
+          TopLeft="138,118">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8245,14 +9394,12 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Flat File Source Output]"
-          TopLeft="355.5,68">
+          TopLeft="355.5,95">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8281,14 +9428,12 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Derived Column Output]"
-          TopLeft="345,169">
+          TopLeft="345,196">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8317,14 +9462,20 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Prestatario\SQL Server Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Prestatario\SQL Server Destination">
     <Properties>
@@ -8536,34 +9687,34 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\Carga Ubicacion">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="133,42"
           Id="Package\Carga Ubicacion\Merge Join"
-          TopLeft="578,293" />
+          TopLeft="441,302" />
         <NodeLayout
           Size="108,42"
           Id="Package\Carga Ubicacion\Sort 1"
-          TopLeft="710,186" />
+          TopLeft="573,195" />
         <NodeLayout
           Size="126,42"
           Id="Package\Carga Ubicacion\Regiones"
-          TopLeft="735,55" />
+          TopLeft="598,64" />
         <NodeLayout
           Size="194,42"
           Id="Package\Carga Ubicacion\SQL Server Destination"
-          TopLeft="551,383" />
+          TopLeft="414,392" />
         <NodeLayout
           Size="119,42"
           Id="Package\Carga Ubicacion\Clientes"
-          TopLeft="437,56" />
+          TopLeft="300,65" />
         <NodeLayout
           Size="99,42"
           Id="Package\Carga Ubicacion\Sort"
-          TopLeft="541,181" />
+          TopLeft="404,190" />
         <EdgeLayout
           Id="Package\Carga Ubicacion.Paths[Sort Output1]"
-          TopLeft="764,228">
+          TopLeft="627,237">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8592,12 +9743,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ubicacion.Paths[Sort Output]"
-          TopLeft="590.5,223">
+          TopLeft="453.5,232">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8626,12 +9779,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ubicacion.Paths[Merge Join Output]"
-          TopLeft="646.25,335">
+          TopLeft="509.25,344">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8648,12 +9803,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ubicacion.Paths[Flat File Source Output1]"
-          TopLeft="798,97">
+          TopLeft="661,106">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8682,12 +9839,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ubicacion.Paths[Flat File Source Output]"
-          TopLeft="496.5,98">
+          TopLeft="359.5,107">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8716,7 +9875,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8730,17 +9891,5 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Prueba carga fecha">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Prueba carga fecha\Flat File Source"
-          TopLeft="251,36" />
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
