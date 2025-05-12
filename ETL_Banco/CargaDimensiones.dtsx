@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaDimensiones"
   DTS:PackageType="5"
-  DTS:VersionBuild="290"
-  DTS:VersionGUID="{3EA44F4D-6B22-4AD0-A39A-70805D348295}">
+  DTS:VersionBuild="337"
+  DTS:VersionGUID="{657CB57E-C115-4F92-803B-3A984E53126B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -235,7 +235,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="addr_state"
-              DTS:DTSID="{E2591EF8-88F2-4802-B15F-9DD5D9A799E4}"
+              DTS:DTSID="{7344FAEB-2B5C-4CC2-AFB1-3671322427AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -244,7 +244,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="annual_inc"
-              DTS:DTSID="{4106DC0B-C158-4CF5-8178-81AF81B331B3}"
+              DTS:DTSID="{57FCFC05-D175-4AC2-A7DD-5AAF36AE6079}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -253,7 +253,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amnt"
-              DTS:DTSID="{16997897-E8F8-468C-86D6-3EC2055411CB}"
+              DTS:DTSID="{5E147C2A-010C-41C1-AC04-0F88B2E8659E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -262,7 +262,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="int_rate"
-              DTS:DTSID="{78384605-39A5-4A31-A392-FA71EDF9C5AA}"
+              DTS:DTSID="{01D04EA0-5729-4CBC-81F7-CE39BC941596}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -271,7 +271,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="purpose"
-              DTS:DTSID="{DD9BF7C5-E87E-4A36-A1CE-4591268BC2A5}"
+              DTS:DTSID="{AB4FE077-6CEC-4FA3-BFFB-842E12E0B50A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -280,7 +280,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_type"
-              DTS:DTSID="{C89E0F66-2866-4D15-92AD-017A4C6C25A8}"
+              DTS:DTSID="{FCAEBBD9-2275-4B7B-BA03-1861194B344D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -289,7 +289,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="term"
-              DTS:DTSID="{7A8EB46F-0324-4823-9832-9A5729819CCA}"
+              DTS:DTSID="{FFEFBB63-9469-44D3-A492-D9A20258BCA8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -298,7 +298,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_status"
-              DTS:DTSID="{A8F6E865-693A-4A66-BEDC-A618C71D6C26}"
+              DTS:DTSID="{ABD622CB-BF65-4111-A325-4F01B24932A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -306,7 +306,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="earliest_cr_line"
-              DTS:DTSID="{AF7D1640-BE22-46EE-9AFC-EA5A8D1CF5D6}"
+              DTS:DTSID="{2B586D2F-723A-407F-A369-303CDA0BDE96}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -314,7 +314,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="issue_d"
-              DTS:DTSID="{99E598F6-E697-4212-8ED6-F2CACADFEE79}"
+              DTS:DTSID="{D6EB1FF5-5CED-4DE4-8569-6F9159D456C8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -323,7 +323,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id_prestatario"
-              DTS:DTSID="{4F649DA3-337D-42EB-BFB0-49E3D8AED5A2}"
+              DTS:DTSID="{A75E0F7E-F272-4912-A539-280A5CEE13BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -332,7 +332,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_desc"
-              DTS:DTSID="{8A603360-71DA-47D7-B82C-B9E86BD14DF9}"
+              DTS:DTSID="{FF4F16DE-B39E-41F9-B9EF-364901DD4097}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -341,7 +341,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="descuento"
-              DTS:DTSID="{93CF5D04-69B7-44BF-B9F4-0D6348C7A3E6}"
+              DTS:DTSID="{FFBEB32D-7DF7-42A9-A138-021FA5CD7698}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -350,7 +350,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_tasa"
-              DTS:DTSID="{BF87DFA4-1CC9-4687-B211-F0D1D3A7B0DC}"
+              DTS:DTSID="{F1F07332-3A4B-425A-AAAA-565883789BEF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -359,7 +359,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="city"
-              DTS:DTSID="{E0C548DC-F17E-4E15-9113-27F910B69709}"
+              DTS:DTSID="{A9A12C3F-A475-489F-A17D-B7376799DC58}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -406,6 +406,57 @@
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Borrado Dimensiones"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{CB5EB1F3-EDFC-4E55-8665-6ED7CE46B37A}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Borrado Dimensiones"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6F24ABAF-33AB-49D4-A0C4-F550E9CE154F}"
+          SQLTask:SqlStatementSource="WHILE 1 = 1&#xA;BEGIN&#xA;    DELETE TOP (10000) FROM DimPrestatario;&#xA;&#xA;    IF @@ROWCOUNT = 0&#xA;        BREAK;&#xA;&#xA;    CHECKPOINT;  -- ayuda a liberar log&#xA;END&#xA;DBCC CHECKIDENT (&quot;DimPrestatario&quot;,RESEED,0)&#xA;DELETE FROM  DimSucursal&#xA;DBCC CHECKIDENT (&quot;DimSucursal&quot;,RESEED,0)&#xA;DELETE FROM DimUbicacion&#xA;DBCC CHECKIDENT (&quot;DimUbicacion&quot;,RESEED,0)&#xA;DELETE FROM DimDescuento&#xA;DBCC CHECKIDENT (&quot;DimDescuento&quot;,RESEED,0)&#xA;DELETE FROM DimTasa&#xA;DBCC CHECKIDENT (&quot;DimTasa&quot;,RESEED,0)&#xA;DELETE FROM  DimTiempo&#xA;DBCC CHECKIDENT (&quot;DimTiempo&quot;,RESEED,0)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Borrado Hecho"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{132D7A6D-51FB-4599-9CC5-E439B9978852}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Borrado Hecho"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6F24ABAF-33AB-49D4-A0C4-F550E9CE154F}"
+          SQLTask:SqlStatementSource="DELETE FROM FactPrestamos&#xA;DBCC CHECKIDENT (&quot;FactPrestamos&quot;,RESEED,0)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Borrado Staging"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{7EF9DEF1-3862-4697-8192-5B452B8A056F}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Borrado Staging"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{BA34EDC3-D173-4B3C-A5EC-D9D87EB0DF19}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE  staging_prestamos &#xA;DBCC CHECKIDENT (&quot;staging_prestamos &quot;,RESEED,0)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Carga Descuento"
       DTS:CreationName="Microsoft.Pipeline"
@@ -5138,8 +5189,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                   <outputColumns>
                     <outputColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[addr_state]"
-                      codePage="65001"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[addr_state]"
@@ -5307,7 +5357,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[earliest_cr_line]"
-                      dataType="date"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[earliest_cr_line]"
@@ -5327,7 +5377,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].Columns[issue_d]"
-                      dataType="date"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[issue_d]"
@@ -5455,8 +5505,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[addr_state]"
-                      codePage="65001"
-                      dataType="str"
+                      dataType="wstr"
                       length="50"
                       name="addr_state" />
                     <externalMetadataColumn
@@ -5496,11 +5545,11 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       name="loan_status" />
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[earliest_cr_line]"
-                      dataType="date"
+                      dataType="dbDate"
                       name="earliest_cr_line" />
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[issue_d]"
-                      dataType="date"
+                      dataType="dbDate"
                       name="issue_d" />
                     <externalMetadataColumn
                       refId="Package\Carga Prestatario\Prestamos.Outputs[Flat File Source Output].ExternalColumns[id_prestatario]"
@@ -7729,7 +7778,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     <externalMetadataColumn
                       refId="Package\carga staging prestamos\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[addr_state]"
                       dataType="wstr"
-                      length="2"
+                      length="50"
                       name="addr_state" />
                     <externalMetadataColumn
                       refId="Package\carga staging prestamos\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[annual_inc]"
@@ -8134,7 +8183,33 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="city"
-                      lineageId="Package\Carga Sucrusal\Prestamo.Outputs[Flat File Source Output].Columns[city]" />
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]" />
+                    <inputColumn
+                      refId="Package\Carga Sucrusal\Derived Column.Inputs[Derived Column Input].Columns[addr_state]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="addr_state"
+                      cachedSortKeyPosition="1"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "AL" ? "Alabama" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "AK" ? "Alaska" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "AZ" ? "Arizona" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "AR" ? "Arkansas" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "CA" ? "California" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "CO" ? "Colorado" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "CT" ? "Connecticut" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "DE" ? "Delaware" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "DC" ? "District of Columbia" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "FL" ? "Florida" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "GA" ? "Georgia" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "HI" ? "Hawaii" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "ID" ? "Idaho" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "IL" ? "Illinois" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "IN" ? "Indiana" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "IA" ? "Iowa" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "KS" ? "Kansas" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "KY" ? "Kentucky" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "LA" ? "Louisiana" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "ME" ? "Maine" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MD" ? "Maryland" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MA" ? "Massachusetts" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MI" ? "Michigan" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MN" ? "Minnesota" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MS" ? "Mississippi" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MO" ? "Missouri" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "MT" ? "Montana" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NE" ? "Nebraska" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NV" ? "Nevada" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NH" ? "New Hampshire" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NJ" ? "New Jersey" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NM" ? "New Mexico" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NY" ? "New York" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "NC" ? "North Carolina" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "ND" ? "North Dakota" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "OH" ? "Ohio" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "OK" ? "Oklahoma" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "OR" ? "Oregon" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "PA" ? "Pennsylvania" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "PR" ? "Puerto Rico" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "RI" ? "Rhode Island" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "SC" ? "South Carolina" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "SD" ? "South Dakota" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "TN" ? "Tennessee" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "TX" ? "Texas" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "UT" ? "Utah" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "VT" ? "Vermont" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "VA" ? "Virginia" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "WA" ? "Washington" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "WV" ? "West Virginia" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "WI" ? "Wisconsin" : #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]} == "WY" ? "Wyoming" : "UNKNOWN"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">addr_state == "AL" ? "Alabama" : addr_state == "AK" ? "Alaska" : addr_state == "AZ" ? "Arizona" : addr_state == "AR" ? "Arkansas" : addr_state == "CA" ? "California" : addr_state == "CO" ? "Colorado" : addr_state == "CT" ? "Connecticut" : addr_state == "DE" ? "Delaware" : addr_state == "DC" ? "District of Columbia" : addr_state == "FL" ? "Florida" : addr_state == "GA" ? "Georgia" : addr_state == "HI" ? "Hawaii" : addr_state == "ID" ? "Idaho" : addr_state == "IL" ? "Illinois" : addr_state == "IN" ? "Indiana" : addr_state == "IA" ? "Iowa" : addr_state == "KS" ? "Kansas" : addr_state == "KY" ? "Kentucky" : addr_state == "LA" ? "Louisiana" : addr_state == "ME" ? "Maine" : addr_state == "MD" ? "Maryland" : addr_state == "MA" ? "Massachusetts" : addr_state == "MI" ? "Michigan" : addr_state == "MN" ? "Minnesota" : addr_state == "MS" ? "Mississippi" : addr_state == "MO" ? "Missouri" : addr_state == "MT" ? "Montana" : addr_state == "NE" ? "Nebraska" : addr_state == "NV" ? "Nevada" : addr_state == "NH" ? "New Hampshire" : addr_state == "NJ" ? "New Jersey" : addr_state == "NM" ? "New Mexico" : addr_state == "NY" ? "New York" : addr_state == "NC" ? "North Carolina" : addr_state == "ND" ? "North Dakota" : addr_state == "OH" ? "Ohio" : addr_state == "OK" ? "Oklahoma" : addr_state == "OR" ? "Oregon" : addr_state == "PA" ? "Pennsylvania" : addr_state == "PR" ? "Puerto Rico" : addr_state == "RI" ? "Rhode Island" : addr_state == "SC" ? "South Carolina" : addr_state == "SD" ? "South Dakota" : addr_state == "TN" ? "Tennessee" : addr_state == "TX" ? "Texas" : addr_state == "UT" ? "Utah" : addr_state == "VT" ? "Vermont" : addr_state == "VA" ? "Virginia" : addr_state == "WA" ? "Washington" : addr_state == "WV" ? "West Virginia" : addr_state == "WI" ? "Wisconsin" : addr_state == "WY" ? "Wyoming" : "UNKNOWN"</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -8152,7 +8227,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="74"
+                      length="201"
                       lineageId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Output].Columns[Nombre Sucursal]"
                       name="Nombre Sucursal"
                       truncationRowDisposition="FailComponent">
@@ -8161,13 +8236,13 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[REPLACE](#{Package\Carga Sucrusal\Prestamo.Outputs[Flat File Source Output].Columns[city]},"city","Branch")</property>
+                          name="Expression">[REPLACE](#{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]},"city","Branch") + " " + #{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">REPLACE(city,"city","Branch")</property>
+                          name="FriendlyExpression">REPLACE(city,"city","Branch") + " " + addr_state</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -8191,216 +8266,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Carga Sucrusal\Flat File Source"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="1033"
-              name="Flat File Source"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Carga Sucrusal\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[clientes]"
-                  connectionManagerRefId="Package.ConnectionManagers[clientes]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[id]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id]"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[id]"
-                      name="id"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[estado]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estado]"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[estado]"
-                      name="estado"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[ciudad]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ciudad]"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[ciudad]"
-                      name="ciudad"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id]"
-                      dataType="wstr"
-                      length="100"
-                      name="id" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nombre]"
-                      dataType="wstr"
-                      length="50"
-                      name="nombre" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[apellido]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="apellido" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[dni]"
-                      dataType="i4"
-                      name="dni" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[email]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="email" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha_nacimiento]"
-                      dataType="date"
-                      name="fecha_nacimiento" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[genero]"
-                      dataType="wstr"
-                      length="50"
-                      name="genero" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[telefono]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="telefono" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[direccion]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="direccion" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estado]"
-                      dataType="wstr"
-                      length="100"
-                      name="estado" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ciudad]"
-                      dataType="wstr"
-                      length="100"
-                      name="ciudad" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[codigo_postal]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="codigo_postal" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha_registro]"
-                      dataType="date"
-                      name="fecha_registro" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[perfil]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="perfil" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ingreso_anual]"
-                      dataType="decimal"
-                      name="ingreso_anual" />
-                    <externalMetadataColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[regimen]"
-                      dataType="wstr"
-                      length="50"
-                      name="regimen" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output]"
-                  isErrorOut="true"
-                  name="Flat File Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="65001"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -8444,7 +8309,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                   dataType="System.Int32"
                   description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
                   name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">1</property>
+                  typeConverter="LookupNoMatchBehavior">0</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
@@ -8465,7 +8330,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]};#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]};</property>
+                  name="ParameterMap">#{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]};#{Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -8489,16 +8354,17 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input].Columns[city]"
+                      refId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input].Columns[addr_state]"
                       cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="city"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]">
+                      cachedLength="50"
+                      cachedName="addr_state"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">Ciudad</property>
+                          name="JoinToReferenceColumn">Provincia</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -8506,16 +8372,17 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input].Columns[estado]"
+                      refId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input].Columns[city]"
                       cachedDataType="wstr"
                       cachedLength="100"
-                      cachedName="estado"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]">
+                      cachedName="city"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">Provincia</property>
+                          name="JoinToReferenceColumn">Ciudad</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -8530,6 +8397,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                 <output
                   refId="Package\Carga Sucrusal\Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Lookup Match Output"
                   synchronousInputId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input]">
@@ -8578,184 +8446,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       lineageId="Package\Carga Sucrusal\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Carga Sucrusal\Merge Join"
-              componentClassID="Microsoft.MergeJoin"
-              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
-              name="Merge Join"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of join to perform."
-                  name="JoinType"
-                  typeConverter="JoinType">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the number of columns in the ordering key."
-                  name="NumKeyColumns">1</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the null values are treated as equal values."
-                  name="TreatNullsAsEqual">true</property>
-                <property
-                  dataType="System.Int32"
-                  description="Indicates the requested maximum buffers per input before blocking."
-                  name="MaxBuffersPerInput">5</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input]"
-                  hasSideEffects="true"
-                  name="Merge Join Left Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[id]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="id"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[id]" />
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[estado]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="estado"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[estado]" />
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[ciudad]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="ciudad"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[ciudad]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-                <input
-                  refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input]"
-                  hasSideEffects="true"
-                  name="Merge Join Right Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[id_prestatario]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="id_prestatario"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[id_prestatario]" />
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[city]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="city"
-                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]" />
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[Nombre Sucursal]"
-                      cachedDataType="wstr"
-                      cachedLength="74"
-                      cachedName="Nombre Sucursal"
-                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[Nombre Sucursal]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output]"
-                  isSorted="true"
-                  name="Merge Join Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id_prestatario]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id_prestatario]"
-                      name="id_prestatario">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[id_prestatario]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]"
-                      name="estado">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[estado]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[ciudad]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[ciudad]"
-                      name="ciudad">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[ciudad]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]"
-                      name="city">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[city]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[Nombre Sucursal]"
-                      dataType="wstr"
-                      length="74"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[Nombre Sucursal]"
-                      name="Nombre Sucursal">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input].Columns[Nombre Sucursal]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id]"
-                      name="id"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input].Columns[id]}</property>
-                      </properties>
-                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -9213,262 +8903,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Carga Sucrusal\Sort"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
-              name="Sort"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
-                  name="EliminateDuplicates">true</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the maximum number of threads to use for sorting."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input]"
-                  name="Sort Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[id_prestatario]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="id_prestatario"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id_prestatario]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[estado]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="estado"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[ciudad]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="ciudad"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[ciudad]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[city]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="city"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">2</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[Nombre Sucursal]"
-                      cachedDataType="wstr"
-                      cachedLength="74"
-                      cachedName="Nombre Sucursal"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[Nombre Sucursal]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[id]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="id"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort.Inputs[Sort Input].Columns[idUbicacion]"
-                      cachedDataType="i4"
-                      cachedName="idUbicacion"
-                      lineageId="Package\Carga Sucrusal\Lookup.Outputs[Lookup Match Output].Columns[idUbicacion]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output]"
-                  isSorted="true"
-                  name="Sort Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[id_prestatario]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[id_prestatario]"
-                      name="id_prestatario">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id_prestatario]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[estado]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[estado]"
-                      name="estado"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[estado]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[ciudad]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[ciudad]"
-                      name="ciudad">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[ciudad]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[city]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[city]"
-                      name="city"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[city]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[Nombre Sucursal]"
-                      dataType="wstr"
-                      length="74"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[Nombre Sucursal]"
-                      name="Nombre Sucursal">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[Nombre Sucursal]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[id]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[id]"
-                      name="id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output].Columns[id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[idUbicacion]"
-                      dataType="i4"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[idUbicacion]"
-                      name="idUbicacion">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Lookup.Outputs[Lookup Match Output].Columns[idUbicacion]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\Carga Sucrusal\Sort 1"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -9479,7 +8913,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the Sort transformation removes rows with duplicate sort values."
-                  name="EliminateDuplicates">false</property>
+                  name="EliminateDuplicates">true</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the maximum number of threads to use for sorting."
@@ -9505,7 +8939,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
+                          name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -9673,7 +9107,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">1</property>
+                          name="NewSortKeyPosition">0</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -9741,24 +9175,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort 1.Inputs[Sort Input].Columns[Nombre Sucursal]"
-                      cachedDataType="wstr"
-                      cachedLength="74"
-                      cachedName="Nombre Sucursal"
-                      lineageId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Output].Columns[Nombre Sucursal]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
+                          name="NewSortKeyPosition">2</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -9776,7 +9193,8 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       dataType="wstr"
                       length="50"
                       lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[addr_state]"
-                      name="addr_state">
+                      name="addr_state"
+                      sortKeyPosition="1">
                       <properties>
                         <property
                           containsID="true"
@@ -9914,8 +9332,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       dataType="wstr"
                       length="50"
                       lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[id_prestatario]"
-                      name="id_prestatario"
-                      sortKeyPosition="1">
+                      name="id_prestatario">
                       <properties>
                         <property
                           containsID="true"
@@ -9971,159 +9388,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       dataType="wstr"
                       length="100"
                       lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[city]"
-                      name="city">
+                      name="city"
+                      sortKeyPosition="2">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Carga Sucrusal\Prestamo.Outputs[Flat File Source Output].Columns[city]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[Nombre Sucursal]"
-                      dataType="wstr"
-                      length="74"
-                      lineageId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output].Columns[Nombre Sucursal]"
-                      name="Nombre Sucursal">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Output].Columns[Nombre Sucursal]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Carga Sucrusal\Sort 2"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
-              name="Sort 2"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
-                  name="EliminateDuplicates">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the maximum number of threads to use for sorting."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Carga Sucrusal\Sort 2.Inputs[Sort Input]"
-                  name="Sort Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Inputs[Sort Input].Columns[id]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="id"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Inputs[Sort Input].Columns[estado]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="estado"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[estado]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Inputs[Sort Input].Columns[ciudad]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="ciudad"
-                      lineageId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[ciudad]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output]"
-                  isSorted="true"
-                  name="Sort Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[id]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[id]"
-                      name="id"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[estado]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[estado]"
-                      name="estado">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[estado]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[ciudad]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output].Columns[ciudad]"
-                      name="ciudad">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output].Columns[ciudad]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -10220,14 +9492,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="i4"
                       cachedName="idUbicacion"
                       externalMetadataColumnId="Package\Carga Sucrusal\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[IdUbicacion]"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[idUbicacion]" />
+                      lineageId="Package\Carga Sucrusal\Lookup.Outputs[Lookup Match Output].Columns[idUbicacion]" />
                     <inputColumn
                       refId="Package\Carga Sucrusal\SQL Server Destination.Inputs[SQL Server Destination Input].Columns[Nombre Sucursal]"
                       cachedDataType="wstr"
-                      cachedLength="74"
+                      cachedLength="201"
                       cachedName="Nombre Sucursal"
                       externalMetadataColumnId="Package\Carga Sucrusal\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[Nombre]"
-                      lineageId="Package\Carga Sucrusal\Sort.Outputs[Sort Output].Columns[Nombre Sucursal]" />
+                      lineageId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Output].Columns[Nombre Sucursal]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -10252,44 +9524,24 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           <paths>
             <path
               refId="Package\Carga Sucrusal.Paths[Derived Column Output]"
-              endId="Package\Carga Sucrusal\Sort 1.Inputs[Sort Input]"
+              endId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input]"
               name="Derived Column Output"
               startId="Package\Carga Sucrusal\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\Carga Sucrusal.Paths[Flat File Source Output]"
-              endId="Package\Carga Sucrusal\Derived Column.Inputs[Derived Column Input]"
+              endId="Package\Carga Sucrusal\Sort 1.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Carga Sucrusal\Prestamo.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Carga Sucrusal.Paths[Flat File Source Output1]"
-              endId="Package\Carga Sucrusal\Sort 2.Inputs[Sort Input]"
-              name="Flat File Source Output"
-              startId="Package\Carga Sucrusal\Flat File Source.Outputs[Flat File Source Output]" />
-            <path
               refId="Package\Carga Sucrusal.Paths[Lookup Match Output]"
-              endId="Package\Carga Sucrusal\Sort.Inputs[Sort Input]"
+              endId="Package\Carga Sucrusal\SQL Server Destination.Inputs[SQL Server Destination Input]"
               name="Lookup Match Output"
               startId="Package\Carga Sucrusal\Lookup.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Carga Sucrusal.Paths[Merge Join Output]"
-              endId="Package\Carga Sucrusal\Lookup.Inputs[Lookup Input]"
-              name="Merge Join Output"
-              startId="Package\Carga Sucrusal\Merge Join.Outputs[Merge Join Output]" />
-            <path
               refId="Package\Carga Sucrusal.Paths[Sort Output]"
-              endId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Carga Sucrusal\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Sucrusal.Paths[Sort Output1]"
-              endId="Package\Carga Sucrusal\Merge Join.Inputs[Merge Join Right Input]"
+              endId="Package\Carga Sucrusal\Derived Column.Inputs[Derived Column Input]"
               name="Sort Output"
               startId="Package\Carga Sucrusal\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Sucrusal.Paths[Sort Output2]"
-              endId="Package\Carga Sucrusal\SQL Server Destination.Inputs[SQL Server Destination Input]"
-              name="Sort Output"
-              startId="Package\Carga Sucrusal\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -11697,40 +10949,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute SQL Task"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{CB5EB1F3-EDFC-4E55-8665-6ED7CE46B37A}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{6F24ABAF-33AB-49D4-A0C4-F550E9CE154F}"
-          SQLTask:SqlStatementSource="WHILE 1 = 1&#xA;BEGIN&#xA;    DELETE TOP (10000) FROM DimPrestatario;&#xA;&#xA;    IF @@ROWCOUNT = 0&#xA;        BREAK;&#xA;&#xA;    CHECKPOINT;  -- ayuda a liberar log&#xA;END&#xA;DBCC CHECKIDENT (&quot;DimPrestatario&quot;,RESEED,0)&#xA;DELETE FROM  DimSucursal&#xA;DBCC CHECKIDENT (&quot;DimSucursal&quot;,RESEED,0)&#xA;DELETE FROM DimUbicacion&#xA;DBCC CHECKIDENT (&quot;DimUbicacion&quot;,RESEED,0)&#xA;DELETE FROM DimDescuento&#xA;DBCC CHECKIDENT (&quot;DimDescuento&quot;,RESEED,0)&#xA;DELETE FROM DimTasa&#xA;DBCC CHECKIDENT (&quot;DimTasa&quot;,RESEED,0)&#xA;DELETE FROM  DimTiempo&#xA;DBCC CHECKIDENT (&quot;DimTiempo&quot;,RESEED,0)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Execute SQL Task 1"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{132D7A6D-51FB-4599-9CC5-E439B9978852}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task 1"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{6F24ABAF-33AB-49D4-A0C4-F550E9CE154F}"
-          SQLTask:SqlStatementSource="DELETE FROM FactPrestamos&#xA;DBCC CHECKIDENT (&quot;FactPrestamos&quot;,RESEED,0)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
       DTS:refId="Package\Execute SQL Task 2"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -11748,23 +10966,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           SQLTask:SqlStatementSource="TRUNCATE TABLE regiones_staging" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Execute SQL Task 3"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{7EF9DEF1-3862-4697-8192-5B452B8A056F}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task 3"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{BA34EDC3-D173-4B3C-A5EC-D9D87EB0DF19}"
-          SQLTask:SqlStatementSource="DELETE FROM  staging_prestamos &#xA;DBCC CHECKIDENT (&quot;staging_prestamos &quot;,RESEED,0)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -11779,7 +10980,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
       DTS:DTSID="{E8321554-3B51-4225-857A-6804C12EA9D4}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Borrado Dimensiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Carga Ubicacion" />
@@ -11787,7 +10988,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
       DTS:DTSID="{5169B35E-390C-40D9-AE76-AD14E03853DD}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Borrado Dimensiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Carga Descuento" />
@@ -11795,7 +10996,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
       DTS:DTSID="{BB775888-3768-43D6-BF01-EC511D7C93F5}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Borrado Dimensiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Carga Tasa" />
@@ -11803,7 +11004,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
       DTS:DTSID="{86948486-16D3-4383-8EA5-F76896471A99}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Borrado Dimensiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
       DTS:To="Package\Carga Fecha" />
@@ -11819,15 +11020,15 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
       DTS:DTSID="{251C78B1-424E-49F5-AB36-E6CE8E7BF412}"
-      DTS:From="Package\Execute SQL Task 1"
+      DTS:From="Package\Borrado Hecho"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
-      DTS:To="Package\Execute SQL Task" />
+      DTS:To="Package\Borrado Dimensiones" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
       DTS:DTSID="{C8B796FE-43B5-4B5B-87EB-60FD98656EAE}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Borrado Dimensiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
       DTS:To="Package\Carga DimTiempo" />
@@ -11835,7 +11036,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
       DTS:CreationName=""
       DTS:DTSID="{40458C2B-9983-418F-8BB4-30C033E5A3E7}"
-      DTS:From="Package\Execute SQL Task 3"
+      DTS:From="Package\Borrado Staging"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8"
       DTS:To="Package\carga staging prestamos" />
@@ -11843,10 +11044,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
       DTS:CreationName=""
       DTS:DTSID="{656B37F5-CE6E-4180-852D-637A870B5C9F}"
-      DTS:From="Package\Execute SQL Task 3"
+      DTS:From="Package\Borrado Staging"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9"
-      DTS:To="Package\Execute SQL Task 1" />
+      DTS:To="Package\Borrado Hecho" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -11893,12 +11094,12 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\Carga Ubicacion"
           TopLeft="36,258" />
         <NodeLayout
-          Size="170,42"
-          Id="Package\Execute SQL Task"
+          Size="185,42"
+          Id="Package\Borrado Dimensiones"
           TopLeft="307,136" />
         <NodeLayout
-          Size="179,42"
-          Id="Package\Execute SQL Task 1"
+          Size="153,42"
+          Id="Package\Borrado Hecho"
           TopLeft="302,61" />
         <NodeLayout
           Size="179,42"
@@ -11940,30 +11141,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="343.4,178">
+          TopLeft="346.4,178">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-227.4,80"
+              EndConnector="-230.4,80"
               Start="0,0"
-              End="-227.4,72.5">
+              End="-230.4,72.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.9868204283361" />
+                    End="0,19.8968915845337" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.9868204283361"
-                    Point2="0,23.9868204283361"
-                    Point3="-4,23.9868204283361" />
+                    Point1="0,19.8968915845337"
+                    Point2="0,23.8968915845337"
+                    Point3="-4,23.8968915845337" />
                   <mssgle:LineSegment
-                    End="-223.4,23.9868204283361" />
+                    End="-226.4,23.8968915845337" />
                   <mssgle:CubicBezierSegment
-                    Point1="-223.4,23.9868204283361"
-                    Point2="-227.4,23.9868204283361"
-                    Point3="-227.4,27.9868204283361" />
+                    Point1="-226.4,23.8968915845337"
+                    Point2="-230.4,23.8968915845337"
+                    Point3="-230.4,27.8968915845337" />
                   <mssgle:LineSegment
-                    End="-227.4,72.5" />
+                    End="-230.4,72.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11974,30 +11175,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="375.8,178">
+          TopLeft="381.8,178">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-71.728997020854,79.5"
+              EndConnector="-77.728997020854,79.5"
               Start="0,0"
-              End="-71.728997020854,72">
+              End="-77.728997020854,72">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5630689206762" />
+                    End="0,31.5445307830245" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.5630689206762"
-                    Point2="0,35.5630689206762"
-                    Point3="-4,35.5630689206762" />
+                    Point1="0,31.5445307830245"
+                    Point2="0,35.5445307830245"
+                    Point3="-4,35.5445307830245" />
                   <mssgle:LineSegment
-                    End="-67.728997020854,35.5630689206762" />
+                    End="-73.728997020854,35.5445307830245" />
                   <mssgle:CubicBezierSegment
-                    Point1="-67.728997020854,35.5630689206762"
-                    Point2="-71.728997020854,35.5630689206762"
-                    Point3="-71.728997020854,39.5630689206762" />
+                    Point1="-73.728997020854,35.5445307830245"
+                    Point2="-77.728997020854,35.5445307830245"
+                    Point3="-77.728997020854,39.5445307830245" />
                   <mssgle:LineSegment
-                    End="-71.728997020854,72" />
+                    End="-77.728997020854,72" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12008,30 +11209,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="408.2,178">
+          TopLeft="417.2,178">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="77.8,75"
+              EndConnector="68.8,75"
               Start="0,0"
-              End="77.8,67.5">
+              End="68.8,67.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.5500650195059" />
+                    End="0,29.5325762104005" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.5500650195059"
-                    Point2="0,33.5500650195059"
-                    Point3="4,33.5500650195059" />
+                    Point1="0,29.5325762104005"
+                    Point2="0,33.5325762104005"
+                    Point3="4,33.5325762104005" />
                   <mssgle:LineSegment
-                    End="73.8,33.5500650195059" />
+                    End="64.8,33.5325762104005" />
                   <mssgle:CubicBezierSegment
-                    Point1="73.8,33.5500650195059"
-                    Point2="77.8,33.5500650195059"
-                    Point3="77.8,37.5500650195059" />
+                    Point1="64.8,33.5325762104005"
+                    Point2="68.8,33.5325762104005"
+                    Point3="68.8,37.5325762104005" />
                   <mssgle:LineSegment
-                    End="77.8,67.5" />
+                    End="68.8,67.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12042,30 +11243,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="477,157">
+          TopLeft="492,157">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="282,-51"
+              EndConnector="267,-51"
               Start="0,0"
-              End="274.5,-51">
+              End="259.5,-51">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="137,0" />
+                    End="129.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="137,0"
-                    Point2="141,0"
-                    Point3="141,-4" />
+                    Point1="129.5,0"
+                    Point2="133.5,0"
+                    Point3="133.5,-4" />
                   <mssgle:LineSegment
-                    End="141,-47" />
+                    End="133.5,-47" />
                   <mssgle:CubicBezierSegment
-                    Point1="141,-47"
-                    Point2="141,-51"
-                    Point3="145,-51" />
+                    Point1="133.5,-47"
+                    Point2="133.5,-51"
+                    Point3="137.5,-51" />
                   <mssgle:LineSegment
-                    End="274.5,-51" />
+                    End="259.5,-51" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12110,18 +11311,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="391.75,103">
+          TopLeft="378.5,103">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33"
+              EndConnector="21,33"
               Start="0,0"
-              End="0,25.5">
+              End="21,25.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.5" />
+                    End="0,12.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.5"
+                    Point2="0,16.5"
+                    Point3="4,16.5" />
+                  <mssgle:LineSegment
+                    End="17,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17,16.5"
+                    Point2="21,16.5"
+                    Point3="21,20.5" />
+                  <mssgle:LineSegment
+                    End="21,25.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12136,30 +11349,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           TopLeft="590,253" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="440.6,178">
+          TopLeft="452.6,178">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="233.4,75"
+              EndConnector="221.4,75"
               Start="0,0"
-              End="233.4,67.5">
+              End="221.4,67.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.4876441515651" />
+                    End="0,18.4033358605004" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.4876441515651"
-                    Point2="0,22.4876441515651"
-                    Point3="4,22.4876441515651" />
+                    Point1="0,18.4033358605004"
+                    Point2="0,22.4033358605004"
+                    Point3="4,22.4033358605004" />
                   <mssgle:LineSegment
-                    End="229.4,22.4876441515651" />
+                    End="217.4,22.4033358605004" />
                   <mssgle:CubicBezierSegment
-                    Point1="229.4,22.4876441515651"
-                    Point2="233.4,22.4876441515651"
-                    Point3="233.4,26.4876441515651" />
+                    Point1="217.4,22.4033358605004"
+                    Point2="221.4,22.4033358605004"
+                    Point3="221.4,26.4033358605004" />
                   <mssgle:LineSegment
-                    End="233.4,67.5" />
+                    End="221.4,67.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12173,12 +11386,12 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\carga staging prestamos"
           TopLeft="39,108" />
         <NodeLayout
-          Size="179,42"
-          Id="Package\Execute SQL Task 3"
+          Size="158,42"
+          Id="Package\Borrado Staging"
           TopLeft="52,31" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="140,73">
+          TopLeft="134.75,73">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12200,30 +11413,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="231,52">
+          TopLeft="210,52">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71,30"
+              EndConnector="92,30"
               Start="0,0"
-              End="63.5,30">
+              End="84.5,30">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="31.5,0" />
+                    End="42,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="31.5,0"
-                    Point2="35.5,0"
-                    Point3="35.5,4" />
+                    Point1="42,0"
+                    Point2="46,0"
+                    Point3="46,4" />
                   <mssgle:LineSegment
-                    End="35.5,26" />
+                    End="46,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="35.5,26"
-                    Point2="35.5,30"
-                    Point3="39.5,30" />
+                    Point1="46,26"
+                    Point2="46,30"
+                    Point3="50,30" />
                   <mssgle:LineSegment
-                    End="63.5,30" />
+                    End="84.5,30" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13004,7 +12217,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="115,42"
           Id="Package\Carga Prestatario\Lookup"
-          TopLeft="312,397" />
+          TopLeft="311,397" />
         <NodeLayout
           Size="158,42"
           Id="Package\Carga Prestatario\Derived Column"
@@ -13151,14 +12364,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="72.5,0"
+              EndConnector="71.5,0"
               Start="0,0"
-              End="65,0">
+              End="64,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="65,0" />
+                    End="64,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13169,25 +12382,25 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Lookup Match Output]"
-          TopLeft="427,416">
+          TopLeft="426,416">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="89,0"
+              EndConnector="90,0"
               Start="0,0"
-              End="81.5,0">
+              End="82.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="81.5,0" />
+                    End="82.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-7.44138671875,5,96.3827734375,11.609375"
+              BoundingBox="-6.94138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -13234,7 +12447,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13244,7 +12457,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13321,121 +12534,33 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\Carga Sucrusal">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="126,42"
           Id="Package\Carga Sucrusal\Prestamo"
-          TopLeft="117,0" />
-        <NodeLayout
-          Size="115,42"
-          Id="Package\Carga Sucrusal\Lookup"
-          TopLeft="164,429" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Carga Sucrusal\Flat File Source"
-          TopLeft="399,13" />
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Carga Sucrusal\Merge Join"
-          TopLeft="188,292" />
-        <NodeLayout
-          Size="108,42"
-          Id="Package\Carga Sucrusal\Sort 2"
-          TopLeft="417,138" />
+          TopLeft="248,54" />
         <NodeLayout
           Size="108,42"
           Id="Package\Carga Sucrusal\Sort 1"
-          TopLeft="130,167" />
+          TopLeft="258,145" />
         <NodeLayout
           Size="158,42"
           Id="Package\Carga Sucrusal\Derived Column"
-          TopLeft="106,84" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\Carga Sucrusal\SQL Server Destination"
-          TopLeft="660,470" />
-        <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Sort Output1]"
-          TopLeft="184,209">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="49.6666666666667,83"
-              Start="0,0"
-              End="49.6666666666667,75.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.2080237741456" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.2080237741456"
-                    Point2="0,49.2080237741456"
-                    Point3="4,49.2080237741456" />
-                  <mssgle:LineSegment
-                    End="45.6666666666667,49.2080237741456" />
-                  <mssgle:CubicBezierSegment
-                    Point1="45.6666666666667,49.2080237741456"
-                    Point2="49.6666666666667,49.2080237741456"
-                    Point3="49.6666666666667,53.2080237741456" />
-                  <mssgle:LineSegment
-                    End="49.6666666666667,75.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="227,231" />
         <EdgeLayout
           Id="Package\Carga Sucrusal.Paths[Sort Output]"
-          TopLeft="471,180">
+          TopLeft="309,187">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-195.666666666667,112"
+              EndConnector="0,44"
               Start="0,0"
-              End="-195.666666666667,104.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.4011887072808" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,62.4011887072808"
-                    Point2="0,66.4011887072808"
-                    Point3="-4,66.4011887072808" />
-                  <mssgle:LineSegment
-                    End="-191.666666666667,66.4011887072808" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-191.666666666667,66.4011887072808"
-                    Point2="-195.666666666667,66.4011887072808"
-                    Point3="-195.666666666667,70.4011887072808" />
-                  <mssgle:LineSegment
-                    End="-195.666666666667,104.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Flat File Source Output1]"
-          TopLeft="474,55">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,83"
-              Start="0,0"
-              End="0,75.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,75.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13446,74 +12571,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Sucrusal.Paths[Flat File Source Output]"
-          TopLeft="182.5,42">
+          TopLeft="311.5,96">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42"
+              EndConnector="0,49"
               Start="0,0"
-              End="0,34.5">
+              End="0,41.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Derived Column Output]"
-          TopLeft="184.5,126">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41"
-              Start="0,0"
-              End="0,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Merge Join Output]"
-          TopLeft="254.5,334">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-33,95"
-              Start="0,0"
-              End="-33,87.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43.5"
-                    Point2="0,47.5"
-                    Point3="-4,47.5" />
-                  <mssgle:LineSegment
-                    End="-29,47.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-29,47.5"
-                    Point2="-33,47.5"
-                    Point3="-33,51.5" />
-                  <mssgle:LineSegment
-                    End="-33,87.5" />
+                    End="0,41.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13523,71 +12592,23 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="99,42"
-          Id="Package\Carga Sucrusal\Sort"
-          TopLeft="462,461" />
+          Size="115,42"
+          Id="Package\Carga Sucrusal\Lookup"
+          TopLeft="243,312" />
         <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Lookup Match Output]"
-          TopLeft="279,450">
+          Id="Package\Carga Sucrusal.Paths[Derived Column Output]"
+          TopLeft="303.25,273">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="183,32"
+              EndConnector="0,39"
               Start="0,0"
-              End="175.5,32">
+              End="0,31.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="87.5,0"
-                    Point2="91.5,0"
-                    Point3="91.5,4" />
-                  <mssgle:LineSegment
-                    End="91.5,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="91.5,28"
-                    Point2="91.5,32"
-                    Point3="95.5,32" />
-                  <mssgle:LineSegment
-                    End="175.5,32" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="43.30861328125,-17.609375,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Sucrusal.Paths[Sort Output2]"
-          TopLeft="561,482">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="99,9"
-              Start="0,0"
-              End="91.5,9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="45.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="45.5,0"
-                    Point2="49.5,0"
-                    Point3="49.5,4" />
-                  <mssgle:LineSegment
-                    End="49.5,5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="49.5,5"
-                    Point2="49.5,9"
-                    Point3="53.5,9" />
-                  <mssgle:LineSegment
-                    End="91.5,9" />
+                    End="0,31.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13596,40 +12617,37 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="194,42"
+          Id="Package\Carga Sucrusal\SQL Server Destination"
+          TopLeft="199,424" />
+        <EdgeLayout
+          Id="Package\Carga Sucrusal.Paths[Lookup Match Output]"
+          TopLeft="298.25,354">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70"
+              Start="0,0"
+              End="0,62.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,25.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Sucrusal\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimUbicacion]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Sucrusal\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga Tasa">
     <LayoutInfo>
@@ -13638,7 +12656,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="132,42"
           Id="Package\Carga Tasa\Prestamos"
-          TopLeft="352,46" />
+          TopLeft="362,39" />
         <NodeLayout
           Size="158,42"
           Id="Package\Carga Tasa\Derived Column"
@@ -13697,18 +12715,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Tasa.Paths[Flat File Source Output]"
-          TopLeft="421.5,88">
+          TopLeft="426.5,81">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57"
+              EndConnector="0,64"
               Start="0,0"
-              End="0,49.5">
+              End="0,56.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.5" />
+                    End="0,56.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13972,10 +12990,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="167,42"
           Id="Package\carga staging prestamos\Derived Column 1"
-          TopLeft="189,389" />
+          TopLeft="190,389" />
         <EdgeLayout
           Id="Package\carga staging prestamos.Paths[Data Conversion Output]"
-          TopLeft="272.5,344">
+          TopLeft="273,344">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -13997,7 +13015,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\carga staging prestamos.Paths[Derived Column Output1]"
-          TopLeft="270.25,431">
+          TopLeft="270.75,431">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14070,6 +13088,37 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\carga staging prestamos\SQL Server Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Sucrusal\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimUbicacion]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Sucrusal\SQL Server Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
