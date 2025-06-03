@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaHechos"
   DTS:PackageType="5"
-  DTS:VersionBuild="191"
-  DTS:VersionGUID="{F720A22E-6EF5-43A8-BB8F-EA73E87219A2}">
+  DTS:VersionBuild="197"
+  DTS:VersionGUID="{9950BB9D-375F-4AE9-AA08-7AA637A16C6E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -869,7 +869,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="addr_state"
-              DTS:DTSID="{7926C3DD-5A4F-4AF4-8E2C-B65B68B69042}"
+              DTS:DTSID="{057C62D8-5607-49F1-9EBE-3135DC9A517F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -878,7 +878,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="annual_inc"
-              DTS:DTSID="{5CD5F851-2408-4D58-9870-9CCD8CE7D75E}"
+              DTS:DTSID="{93682EBC-3F0C-4C61-BB67-E03E1C5F1341}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -887,7 +887,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amnt"
-              DTS:DTSID="{DD279F84-677F-4E7E-BF4C-848A872DDF82}"
+              DTS:DTSID="{47DF283C-2D53-483A-B460-399A40D1BC28}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -896,7 +896,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="int_rate"
-              DTS:DTSID="{449FCC26-CF3A-4519-892E-56B6001EEC57}"
+              DTS:DTSID="{4A9E5317-D2FB-4B28-9E21-514C292EC0F6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -905,7 +905,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="purpose"
-              DTS:DTSID="{27351028-94DC-42AA-8108-15F2F60BF4C5}"
+              DTS:DTSID="{54286296-3C98-48D7-B68F-59BA3F31500A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -914,7 +914,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_type"
-              DTS:DTSID="{9032F308-A0E1-4C7F-9F81-D52632845E92}"
+              DTS:DTSID="{9EF0AD99-5A6D-4963-8A62-2B7420D69211}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -923,7 +923,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="term"
-              DTS:DTSID="{A4C40AB9-40B6-4AE3-B1B6-A42B2C116494}"
+              DTS:DTSID="{95880DFD-FD0C-49CD-9022-71738FA62492}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -932,7 +932,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_status"
-              DTS:DTSID="{5A2012CA-086C-46F6-BE5B-4051B1097073}"
+              DTS:DTSID="{8C0A997F-B0D9-4CD2-9481-BD1B34ECDEDC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -940,7 +940,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="earliest_cr_line"
-              DTS:DTSID="{756B5B4F-C9EA-4AA9-9FBD-512BEDD4C5E4}"
+              DTS:DTSID="{94F7B454-602F-493B-9D92-8872FD01A92A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -948,7 +948,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="issue_d"
-              DTS:DTSID="{8446D5F3-F9F9-4ADA-ACD9-38F09E468EF9}"
+              DTS:DTSID="{B0D4B263-496F-4E5B-8102-6B9F3273BF2E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -957,7 +957,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id_prestatario"
-              DTS:DTSID="{443357F8-D602-4DC6-A268-907B8EECA9AA}"
+              DTS:DTSID="{DEC2C189-F0B4-4EA2-B7CA-5B549B1A823D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -966,7 +966,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_desc"
-              DTS:DTSID="{44A677E5-F20F-4FB7-8606-8D12238F7F72}"
+              DTS:DTSID="{F5759E76-52C3-458E-A19B-826513175371}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -975,7 +975,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="descuento"
-              DTS:DTSID="{D27A2733-9877-4049-A973-9BD05E1D58AC}"
+              DTS:DTSID="{D6BC5544-9DA2-475A-9069-D645692A2E67}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -984,7 +984,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_tasa"
-              DTS:DTSID="{79F3D9C8-CC9F-4433-920E-3D931B834E2F}"
+              DTS:DTSID="{86AA29E0-6FAD-467A-841E-2F72C0D0600B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -993,7 +993,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="city"
-              DTS:DTSID="{B1E3F6EA-86A3-4A27-A392-F9D8D31C3F4D}"
+              DTS:DTSID="{2B15BEA1-5337-4EB8-AB1B-74A23E642A5E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2499,7 +2499,7 @@ where [refTable].[TasaInteres] = ? and [refTable].[TipoTasa] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="idTasaInteres" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TipoTasa" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TasaInteres" dataType="DT_NUMERIC" length="0" precision="5" scale="2" codePage="0"/&gt;&lt;referenceColumn name="Desde" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Hasta" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="idTasaInteres" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TipoTasa" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TasaInteres" dataType="DT_NUMERIC" length="0" precision="5" scale="2" codePage="0"/&gt;&lt;referenceColumn name="Desde" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Hasta" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="BK_idprestamo" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
@@ -5511,7 +5511,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="116,42"
           Id="Package\Data Flow Task\clientes"
-          TopLeft="519,207" />
+          TopLeft="447,206" />
         <NodeLayout
           Size="240,42"
           Id="Package\Data Flow Task\Derived TasaFinal y EstadoPago"
@@ -5519,7 +5519,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="191,42"
           Id="Package\Data Flow Task\Lookup DimPrestatario"
-          TopLeft="228,627" />
+          TopLeft="266,625" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output]"
           TopLeft="588.666666666667,1285">
@@ -5558,30 +5558,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="577,249">
+          TopLeft="502.75,248">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-76.5,69"
+              EndConnector="0,70"
               Start="0,0"
-              End="-76.5,61.5">
+              End="0,62.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.5"
-                    Point2="0,34.5"
-                    Point3="-4,34.5" />
-                  <mssgle:LineSegment
-                    End="-72.5,34.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-72.5,34.5"
-                    Point2="-76.5,34.5"
-                    Point3="-76.5,38.5" />
-                  <mssgle:LineSegment
-                    End="-76.5,61.5" />
+                    End="0,62.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5698,37 +5686,37 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output4]"
-          TopLeft="323.5,669">
+          TopLeft="361.5,667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="363.5,110"
+              EndConnector="325.5,112"
               Start="0,0"
-              End="363.5,102.5">
+              End="325.5,104.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51" />
+                    End="0,52" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,51"
-                    Point2="0,55"
-                    Point3="4,55" />
+                    Point1="0,52"
+                    Point2="0,56"
+                    Point3="4,56" />
                   <mssgle:LineSegment
-                    End="359.5,55" />
+                    End="321.5,56" />
                   <mssgle:CubicBezierSegment
-                    Point1="359.5,55"
-                    Point2="363.5,55"
-                    Point3="363.5,59" />
+                    Point1="321.5,56"
+                    Point2="325.5,56"
+                    Point3="325.5,60" />
                   <mssgle:LineSegment
-                    End="363.5,102.5" />
+                    End="325.5,104.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="133.55861328125,60,96.3827734375,11.609375"
+              BoundingBox="114.55861328125,61,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5932,30 +5920,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Merge Join Output]"
-          TopLeft="362.5,470">
+          TopLeft="362,470">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-39,157"
+              EndConnector="0,155"
               Start="0,0"
-              End="-39,149.5">
+              End="0,147.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,74.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,74.5"
-                    Point2="0,78.5"
-                    Point3="-4,78.5" />
-                  <mssgle:LineSegment
-                    End="-35,78.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-35,78.5"
-                    Point2="-39,78.5"
-                    Point3="-39,82.5" />
-                  <mssgle:LineSegment
-                    End="-39,149.5" />
+                    End="0,147.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
