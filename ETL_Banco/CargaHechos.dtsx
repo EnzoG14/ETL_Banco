@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaHechos"
   DTS:PackageType="5"
-  DTS:VersionBuild="197"
-  DTS:VersionGUID="{9950BB9D-375F-4AE9-AA08-7AA637A16C6E}">
+  DTS:VersionBuild="201"
+  DTS:VersionGUID="{84AC9691-6179-4B73-9D94-0CA1B7CD69E7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3541,445 +3541,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\OLE DB Source"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-              description="OLE DB Source"
-              name="OLE DB Source"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[staging_prestamos]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.staging_area]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.staging_area]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output]"
-                  name="OLE DB Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[addr_state]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[addr_state]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[addr_state]"
-                      name="addr_state"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[annual_inc]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[annual_inc]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[annual_inc]"
-                      name="annual_inc"
-                      precision="18"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_amnt]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_amnt]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_amnt]"
-                      name="loan_amnt"
-                      precision="18"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[int_rate]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[int_rate]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[int_rate]"
-                      name="int_rate"
-                      precision="5"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[purpose]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[purpose]"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[purpose]"
-                      name="purpose"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_type]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_type]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_type]"
-                      name="loan_type"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[term]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[term]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[term]"
-                      name="term"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_status]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_status]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_status]"
-                      name="loan_status"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[earliest_cr_line]"
-                      dataType="dbDate"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[earliest_cr_line]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[earliest_cr_line]"
-                      name="earliest_cr_line"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[issue_d]"
-                      dataType="dbDate"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[issue_d]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[issue_d]"
-                      name="issue_d"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id_prestatario]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id_prestatario]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id_prestatario]"
-                      name="id_prestatario"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_desc]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[tipo_desc]"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_desc]"
-                      name="tipo_desc"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[descuento]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[descuento]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[descuento]"
-                      name="descuento"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_tasa]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[tipo_tasa]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_tasa]"
-                      name="tipo_tasa"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]"
-                      name="city"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[FechaFin]"
-                      dataType="dbDate"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[FechaFin]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[FechaFin]"
-                      name="FechaFin"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]"
-                      name="id"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[addr_state]"
-                      dataType="wstr"
-                      length="50"
-                      name="addr_state" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[annual_inc]"
-                      dataType="numeric"
-                      name="annual_inc"
-                      precision="18"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_amnt]"
-                      dataType="numeric"
-                      name="loan_amnt"
-                      precision="18"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[int_rate]"
-                      dataType="numeric"
-                      name="int_rate"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[purpose]"
-                      dataType="wstr"
-                      length="100"
-                      name="purpose" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_type]"
-                      dataType="wstr"
-                      length="50"
-                      name="loan_type" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[term]"
-                      dataType="i4"
-                      name="term" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[loan_status]"
-                      dataType="wstr"
-                      length="50"
-                      name="loan_status" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[earliest_cr_line]"
-                      dataType="dbDate"
-                      name="earliest_cr_line" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[issue_d]"
-                      dataType="dbDate"
-                      name="issue_d" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id_prestatario]"
-                      dataType="wstr"
-                      length="50"
-                      name="id_prestatario" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[tipo_desc]"
-                      dataType="wstr"
-                      length="100"
-                      name="tipo_desc" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[descuento]"
-                      dataType="wstr"
-                      length="50"
-                      name="descuento" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[tipo_tasa]"
-                      dataType="wstr"
-                      length="50"
-                      name="tipo_tasa" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[city]"
-                      dataType="wstr"
-                      length="100"
-                      name="city" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[FechaFin]"
-                      dataType="dbDate"
-                      name="FechaFin" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id]"
-                      dataType="i4"
-                      name="id" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output]"
-                  isErrorOut="true"
-                  name="OLE DB Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[addr_state]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[addr_state]"
-                      name="addr_state" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[annual_inc]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[annual_inc]"
-                      name="annual_inc"
-                      precision="18"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_amnt]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_amnt]"
-                      name="loan_amnt"
-                      precision="18"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[int_rate]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[int_rate]"
-                      name="int_rate"
-                      precision="5"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[purpose]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[purpose]"
-                      name="purpose" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_type]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_type]"
-                      name="loan_type" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[term]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[term]"
-                      name="term" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_status]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[loan_status]"
-                      name="loan_status" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[earliest_cr_line]"
-                      dataType="dbDate"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[earliest_cr_line]"
-                      name="earliest_cr_line" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[issue_d]"
-                      dataType="dbDate"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[issue_d]"
-                      name="issue_d" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id_prestatario]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id_prestatario]"
-                      name="id_prestatario" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[tipo_desc]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[tipo_desc]"
-                      name="tipo_desc" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[descuento]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[descuento]"
-                      name="descuento" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[tipo_tasa]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[tipo_tasa]"
-                      name="tipo_tasa" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
-                      dataType="wstr"
-                      length="100"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[city]"
-                      name="city" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[FechaFin]"
-                      dataType="dbDate"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[FechaFin]"
-                      name="FechaFin" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id]"
-                      name="id" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\Data Flow Task\Sort"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -4566,7 +4127,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="addr_state"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[addr_state]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[addr_state]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4584,7 +4145,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedName="annual_inc"
                       cachedPrecision="18"
                       cachedScale="2"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[annual_inc]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[annual_inc]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4602,7 +4163,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedName="loan_amnt"
                       cachedPrecision="18"
                       cachedScale="2"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_amnt]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_amnt]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4620,7 +4181,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedName="int_rate"
                       cachedPrecision="5"
                       cachedScale="2"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[int_rate]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[int_rate]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4637,7 +4198,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="purpose"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[purpose]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[purpose]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4654,7 +4215,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="loan_type"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_type]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_type]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4670,7 +4231,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\Sort 1.Inputs[Sort Input].Columns[term]"
                       cachedDataType="i4"
                       cachedName="term"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[term]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[term]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4687,7 +4248,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="loan_status"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_status]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_status]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4703,7 +4264,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\Sort 1.Inputs[Sort Input].Columns[earliest_cr_line]"
                       cachedDataType="dbDate"
                       cachedName="earliest_cr_line"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[earliest_cr_line]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[earliest_cr_line]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4719,7 +4280,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\Sort 1.Inputs[Sort Input].Columns[issue_d]"
                       cachedDataType="dbDate"
                       cachedName="issue_d"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[issue_d]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[issue_d]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4736,7 +4297,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="id_prestatario"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id_prestatario]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id_prestatario]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4753,7 +4314,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="tipo_desc"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_desc]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_desc]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4770,7 +4331,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="descuento"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[descuento]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[descuento]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4787,7 +4348,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="tipo_tasa"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_tasa]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_tasa]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4804,7 +4365,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="city"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[city]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4820,7 +4381,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\Sort 1.Inputs[Sort Input].Columns[FechaFin]"
                       cachedDataType="dbDate"
                       cachedName="FechaFin"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[FechaFin]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[FechaFin]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4836,7 +4397,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\Sort 1.Inputs[Sort Input].Columns[id]"
                       cachedDataType="i4"
                       cachedName="id"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]">
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4869,7 +4430,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[addr_state]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[addr_state]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4884,7 +4445,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[annual_inc]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[annual_inc]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4899,7 +4460,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_amnt]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_amnt]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4914,7 +4475,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[int_rate]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[int_rate]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4928,7 +4489,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[purpose]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[purpose]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4942,7 +4503,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_type]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_type]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4955,7 +4516,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[term]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[term]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4969,7 +4530,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[loan_status]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_status]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4982,7 +4543,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[earliest_cr_line]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[earliest_cr_line]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4995,7 +4556,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[issue_d]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[issue_d]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5010,7 +4571,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id_prestatario]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id_prestatario]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5024,7 +4585,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_desc]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_desc]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5038,7 +4599,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[descuento]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[descuento]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5052,7 +4613,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[tipo_tasa]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_tasa]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5066,7 +4627,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[city]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[city]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5079,7 +4640,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[FechaFin]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[FechaFin]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5092,7 +4653,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -5327,6 +4888,445 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                 </input>
               </inputs>
             </component>
+            <component
+              refId="Package\Data Flow Task\Staging Prestamos"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Staging Prestamos"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[staging_prestamos]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Staging Prestamos.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.staging_area]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.staging_area]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[addr_state]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[addr_state]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[addr_state]"
+                      name="addr_state"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[annual_inc]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[annual_inc]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[annual_inc]"
+                      name="annual_inc"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_amnt]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_amnt]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_amnt]"
+                      name="loan_amnt"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[int_rate]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[int_rate]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[int_rate]"
+                      name="int_rate"
+                      precision="5"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[purpose]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[purpose]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[purpose]"
+                      name="purpose"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_type]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_type]"
+                      name="loan_type"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[term]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[term]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[term]"
+                      name="term"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_status]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[loan_status]"
+                      name="loan_status"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[earliest_cr_line]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[earliest_cr_line]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[earliest_cr_line]"
+                      name="earliest_cr_line"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[issue_d]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[issue_d]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[issue_d]"
+                      name="issue_d"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id_prestatario]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[id_prestatario]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id_prestatario]"
+                      name="id_prestatario"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_desc]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[tipo_desc]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_desc]"
+                      name="tipo_desc"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[descuento]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[descuento]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[descuento]"
+                      name="descuento"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_tasa]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[tipo_tasa]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[tipo_tasa]"
+                      name="tipo_tasa"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[city]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[city]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[city]"
+                      name="city"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[FechaFin]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[FechaFin]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[FechaFin]"
+                      name="FechaFin"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[id]"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].Columns[id]"
+                      name="id"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[addr_state]"
+                      dataType="wstr"
+                      length="50"
+                      name="addr_state" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[annual_inc]"
+                      dataType="numeric"
+                      name="annual_inc"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_amnt]"
+                      dataType="numeric"
+                      name="loan_amnt"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[int_rate]"
+                      dataType="numeric"
+                      name="int_rate"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[purpose]"
+                      dataType="wstr"
+                      length="100"
+                      name="purpose" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_type]"
+                      dataType="wstr"
+                      length="50"
+                      name="loan_type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[term]"
+                      dataType="i4"
+                      name="term" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[loan_status]"
+                      dataType="wstr"
+                      length="50"
+                      name="loan_status" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[earliest_cr_line]"
+                      dataType="dbDate"
+                      name="earliest_cr_line" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[issue_d]"
+                      dataType="dbDate"
+                      name="issue_d" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[id_prestatario]"
+                      dataType="wstr"
+                      length="50"
+                      name="id_prestatario" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[tipo_desc]"
+                      dataType="wstr"
+                      length="100"
+                      name="tipo_desc" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[descuento]"
+                      dataType="wstr"
+                      length="50"
+                      name="descuento" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[tipo_tasa]"
+                      dataType="wstr"
+                      length="50"
+                      name="tipo_tasa" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[city]"
+                      dataType="wstr"
+                      length="100"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[FechaFin]"
+                      dataType="dbDate"
+                      name="FechaFin" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[addr_state]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[addr_state]"
+                      name="addr_state" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[annual_inc]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[annual_inc]"
+                      name="annual_inc"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_amnt]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_amnt]"
+                      name="loan_amnt"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[int_rate]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[int_rate]"
+                      name="int_rate"
+                      precision="5"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[purpose]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[purpose]"
+                      name="purpose" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_type]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_type]"
+                      name="loan_type" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[term]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[term]"
+                      name="term" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_status]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[loan_status]"
+                      name="loan_status" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[earliest_cr_line]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[earliest_cr_line]"
+                      name="earliest_cr_line" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[issue_d]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[issue_d]"
+                      name="issue_d" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[id_prestatario]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[id_prestatario]"
+                      name="id_prestatario" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[tipo_desc]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[tipo_desc]"
+                      name="tipo_desc" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[descuento]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[descuento]"
+                      name="descuento" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[tipo_tasa]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[tipo_tasa]"
+                      name="tipo_tasa" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[city]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[city]"
+                      name="city" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[FechaFin]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[FechaFin]"
+                      name="FechaFin" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[id]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[id]"
+                      name="id" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -5383,7 +5383,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
               endId="Package\Data Flow Task\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output]" />
+              startId="Package\Data Flow Task\Staging Prestamos.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Sort Output]"
               endId="Package\Data Flow Task\Merge Join.Inputs[Merge Join Left Input]"
@@ -5479,97 +5479,85 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="194,42"
           Id="Package\Data Flow Task\SQL Server Destination"
-          TopLeft="716,1354" />
+          TopLeft="140,794" />
         <NodeLayout
           Size="180,42"
           Id="Package\Data Flow Task\Lookup DimSucursal"
-          TopLeft="470,1285" />
+          TopLeft="395,725" />
         <NodeLayout
           Size="184,42"
           Id="Package\Data Flow Task\Lookup DimFechaFin"
-          TopLeft="81,939" />
+          TopLeft="865,629" />
         <NodeLayout
           Size="190,42"
           Id="Package\Data Flow Task\Lookup DimDescuento"
-          TopLeft="265,1046" />
+          TopLeft="829,727" />
         <NodeLayout
           Size="99,42"
           Id="Package\Data Flow Task\Sort"
-          TopLeft="451,318" />
+          TopLeft="292,436" />
         <NodeLayout
           Size="162,42"
           Id="Package\Data Flow Task\Lookup DimTasa"
-          TopLeft="606,779" />
+          TopLeft="366,639" />
         <NodeLayout
           Size="194,42"
           Id="Package\Data Flow Task\Lookup DimFechaInicio"
-          TopLeft="343,772" />
+          TopLeft="635,636" />
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Task\Lookup DimUbicacion"
-          TopLeft="301,1174" />
+          TopLeft="597,726" />
         <NodeLayout
           Size="116,42"
           Id="Package\Data Flow Task\clientes"
-          TopLeft="447,206" />
+          TopLeft="284,346" />
         <NodeLayout
           Size="240,42"
           Id="Package\Data Flow Task\Derived TasaFinal y EstadoPago"
-          TopLeft="668,1182" />
+          TopLeft="128,721" />
         <NodeLayout
           Size="191,42"
           Id="Package\Data Flow Task\Lookup DimPrestatario"
-          TopLeft="266,625" />
+          TopLeft="109,642" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output]"
-          TopLeft="588.666666666667,1285">
+          TopLeft="395,744">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="160.666666666667,-61"
+              EndConnector="-27,0"
               Start="0,0"
-              End="160.666666666667,-53.5">
+              End="-19.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-26.58310626703" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-26.58310626703"
-                    Point2="0,-30.58310626703"
-                    Point3="4,-30.58310626703" />
-                  <mssgle:LineSegment
-                    End="156.666666666667,-30.58310626703" />
-                  <mssgle:CubicBezierSegment
-                    Point1="156.666666666667,-30.58310626703"
-                    Point2="160.666666666667,-30.58310626703"
-                    Point3="160.666666666667,-34.58310626703" />
-                  <mssgle:LineSegment
-                    End="160.666666666667,-53.5" />
+                    End="-19.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="32.1419466145835,-25.58310626703,96.3827734375,11.609375"
+              BoundingBox="-57.94138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="502.75,248">
+          TopLeft="341.75,388">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,70"
+              EndConnector="0,48"
               Start="0,0"
-              End="0,62.5">
+              End="0,40.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.5" />
+                    End="0,40.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5580,30 +5568,30 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="826.666666666667,1224">
+          TopLeft="248,763">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-13.6666666666666,130"
+              EndConnector="-11,31"
               Start="0,0"
-              End="-13.6666666666666,122.5">
+              End="-11,23.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.5165562913907" />
+                    End="0,11.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,48.5165562913907"
-                    Point2="0,52.5165562913907"
-                    Point3="-4,52.5165562913907" />
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="-4,15.5" />
                   <mssgle:LineSegment
-                    End="-9.66666666666663,52.5165562913907" />
+                    End="-7,15.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-9.66666666666663,52.5165562913907"
-                    Point2="-13.6666666666666,52.5165562913907"
-                    Point3="-13.6666666666666,56.5165562913907" />
+                    Point1="-7,15.5"
+                    Point2="-11,15.5"
+                    Point3="-11,19.5" />
                   <mssgle:LineSegment
-                    End="-13.6666666666666,122.5" />
+                    End="-11,23.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5614,230 +5602,194 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output6]"
-          TopLeft="360,1088">
+          TopLeft="829,747.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="34,86"
+              EndConnector="-46,0"
               Start="0,0"
-              End="34,78.5">
+              End="-38.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39"
-                    Point2="0,43"
-                    Point3="4,43" />
-                  <mssgle:LineSegment
-                    End="30,43" />
-                  <mssgle:CubicBezierSegment
-                    Point1="30,43"
-                    Point2="34,43"
-                    Point3="34,47" />
-                  <mssgle:LineSegment
-                    End="34,78.5" />
+                    End="-38.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-31.19138671875,48,96.3827734375,11.609375"
+              BoundingBox="-67.44138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output5]"
-          TopLeft="173,981">
+          TopLeft="957,671">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="187,65"
+              EndConnector="-33,56"
               Start="0,0"
-              End="187,57.5">
+              End="-33,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5" />
+                    End="0,24" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.5"
-                    Point2="0,32.5"
-                    Point3="4,32.5" />
+                    Point1="0,24"
+                    Point2="0,28"
+                    Point3="-4,28" />
                   <mssgle:LineSegment
-                    End="183,32.5" />
+                    End="-29,28" />
                   <mssgle:CubicBezierSegment
-                    Point1="183,32.5"
-                    Point2="187,32.5"
-                    Point3="187,36.5" />
+                    Point1="-29,28"
+                    Point2="-33,28"
+                    Point3="-33,32" />
                   <mssgle:LineSegment
-                    End="187,57.5" />
+                    End="-33,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="45.30861328125,37.5,96.3827734375,11.609375"
+              BoundingBox="-64.69138671875,33,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output4]"
-          TopLeft="361.5,667">
+          TopLeft="300,661.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="325.5,112"
+              EndConnector="66,0"
               Start="0,0"
-              End="325.5,104.5">
+              End="58.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,52"
-                    Point2="0,56"
-                    Point3="4,56" />
-                  <mssgle:LineSegment
-                    End="321.5,56" />
-                  <mssgle:CubicBezierSegment
-                    Point1="321.5,56"
-                    Point2="325.5,56"
-                    Point3="325.5,60" />
-                  <mssgle:LineSegment
-                    End="325.5,104.5" />
+                    End="58.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="114.55861328125,61,96.3827734375,11.609375"
+              BoundingBox="-18.94138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output3]"
-          TopLeft="440,814">
+          TopLeft="829,653.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-267,125"
+              EndConnector="36,0"
               Start="0,0"
-              End="-267,117.5">
+              End="28.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,58.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,58.5"
-                    Point2="0,62.5"
-                    Point3="-4,62.5" />
-                  <mssgle:LineSegment
-                    End="-263,62.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-263,62.5"
-                    Point2="-267,62.5"
-                    Point3="-267,66.5" />
-                  <mssgle:LineSegment
-                    End="-267,117.5" />
+                    End="28.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-181.69138671875,67.5,96.3827734375,11.609375"
+              BoundingBox="-33.94138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output2]"
-          TopLeft="394,1216">
+          TopLeft="690,768">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="137.333333333333,69"
+              EndConnector="-233.666666666667,-1"
               Start="0,0"
-              End="137.333333333333,61.5">
+              End="-233.666666666667,6.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.0352422907489" />
+                    End="0,18.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,37.0352422907489"
-                    Point2="0,41.0352422907489"
-                    Point3="4,41.0352422907489" />
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="-4,22.5" />
                   <mssgle:LineSegment
-                    End="133.333333333333,41.0352422907489" />
+                    End="-229.666666666667,22.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="133.333333333333,41.0352422907489"
-                    Point2="137.333333333333,41.0352422907489"
-                    Point3="137.333333333333,45.0352422907489" />
+                    Point1="-229.666666666667,22.5"
+                    Point2="-233.666666666667,22.5"
+                    Point3="-233.666666666667,18.5" />
                   <mssgle:LineSegment
-                    End="137.333333333333,61.5" />
+                    End="-233.666666666667,6.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="20.4752799479165,46.0352422907489,96.3827734375,11.609375"
+              BoundingBox="-165.024720052083,27.5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output1]"
-          TopLeft="606,796.5">
+          TopLeft="528,658.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-69,0"
+              EndConnector="107,0"
               Start="0,0"
-              End="-61.5,0">
+              End="99.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-61.5,0" />
+                    End="99.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-78.94138671875,5,96.3827734375,11.609375"
+              BoundingBox="1.55861328125,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="157,42"
-          Id="Package\Data Flow Task\OLE DB Source"
-          TopLeft="184,207" />
+          Size="172,42"
+          Id="Package\Data Flow Task\Staging Prestamos"
+          TopLeft="29,349" />
         <NodeLayout
           Size="108,42"
           Id="Package\Data Flow Task\Sort 1"
-          TopLeft="215,317" />
+          TopLeft="56,435" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="265.75,249">
+          TopLeft="112.5,391">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,68"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,60.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5849,10 +5801,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <NodeLayout
           Size="133,42"
           Id="Package\Data Flow Task\Merge Join"
-          TopLeft="296,428" />
+          TopLeft="137,546" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="269,359">
+          TopLeft="110,477">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5886,7 +5838,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Sort Output1]"
-          TopLeft="500.5,360">
+          TopLeft="341.5,478">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5897,17 +5849,17 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.3150074294205" />
+                    End="0,36.3150074294206" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,36.3150074294205"
-                    Point2="0,40.3150074294205"
-                    Point3="-4,40.3150074294205" />
+                    Point1="0,36.3150074294206"
+                    Point2="0,40.3150074294206"
+                    Point3="-4,40.3150074294206" />
                   <mssgle:LineSegment
-                    End="-113.166666666667,40.3150074294205" />
+                    End="-113.166666666667,40.3150074294206" />
                   <mssgle:CubicBezierSegment
-                    Point1="-113.166666666667,40.3150074294205"
-                    Point2="-117.166666666667,40.3150074294205"
-                    Point3="-117.166666666667,44.3150074294205" />
+                    Point1="-113.166666666667,40.3150074294206"
+                    Point2="-117.166666666667,40.3150074294206"
+                    Point3="-117.166666666667,44.3150074294206" />
                   <mssgle:LineSegment
                     End="-117.166666666667,60.5" />
                 </mssgle:SegmentCollection>
@@ -5920,18 +5872,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Merge Join Output]"
-          TopLeft="362,470">
+          TopLeft="204,588">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,155"
+              EndConnector="0,54"
               Start="0,0"
-              End="0,147.5">
+              End="0,46.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,147.5" />
+                    End="0,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6113,7 +6065,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
+    design-time-name="Package\Data Flow Task\Staging Prestamos">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

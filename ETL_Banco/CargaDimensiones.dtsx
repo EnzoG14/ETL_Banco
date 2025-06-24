@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaDimensiones"
   DTS:PackageType="5"
-  DTS:VersionBuild="404"
-  DTS:VersionGUID="{503F471A-70AB-45DA-9BB4-3301F7DC6E7D}">
+  DTS:VersionBuild="408"
+  DTS:VersionGUID="{B8FD20A0-777C-42CA-8365-73C9E482441A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -13773,17 +13773,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="194,42"
-          Id="Package\Carga Prestatario\SQL Server Destination"
-          TopLeft="733,399" />
-        <NodeLayout
-          Size="99,42"
-          Id="Package\Carga Prestatario\Sort"
-          TopLeft="87,182" />
-        <NodeLayout
-          Size="132,42"
-          Id="Package\Carga Prestatario\Prestamos"
-          TopLeft="67,2" />
+          Size="108,42"
+          Id="Package\Carga Prestatario\Sort 2"
+          TopLeft="515,399" />
         <NodeLayout
           Size="108,42"
           Id="Package\Carga Prestatario\Sort 1"
@@ -13793,67 +13785,29 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\Carga Prestatario\Lookup"
           TopLeft="311,397" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\Carga Prestatario\Derived Column"
-          TopLeft="266,154" />
-        <NodeLayout
-          Size="119,42"
-          Id="Package\Carga Prestatario\Clientes"
-          TopLeft="296,53" />
+          Size="194,42"
+          Id="Package\Carga Prestatario\SQL Server Destination"
+          TopLeft="733,399" />
         <NodeLayout
           Size="133,42"
           Id="Package\Carga Prestatario\Merge Join"
           TopLeft="106.5,401.5" />
         <NodeLayout
-          Size="108,42"
-          Id="Package\Carga Prestatario\Sort 2"
-          TopLeft="515,399" />
-        <EdgeLayout
-          Id="Package\Carga Prestatario.Paths[Merge Join Output]"
-          TopLeft="239.5,420.25">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="71.5,0"
-              Start="0,0"
-              End="64,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="64,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Prestatario.Paths[Lookup Match Output]"
-          TopLeft="426,419">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="89,0"
-              Start="0,0"
-              End="81.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="81.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-7.44138671875,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="158,42"
+          Id="Package\Carga Prestatario\Derived Column"
+          TopLeft="266,154" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Carga Prestatario\Sort"
+          TopLeft="87,182" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\Carga Prestatario\Prestamos"
+          TopLeft="67,2" />
+        <NodeLayout
+          Size="119,42"
+          Id="Package\Carga Prestatario\Clientes"
+          TopLeft="296,53" />
         <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Flat File Source Output1]"
           TopLeft="134.75,44">
@@ -13945,6 +13899,28 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Carga Prestatario.Paths[Sort Output2]"
+          TopLeft="623,420">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="110,0"
+              Start="0,0"
+              End="102.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="102.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Carga Prestatario.Paths[Sort Output1]"
           TopLeft="288,335">
           <EdgeLayout.Curve>
@@ -14013,19 +13989,19 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Prestatario.Paths[Sort Output2]"
-          TopLeft="623,420">
+          Id="Package\Carga Prestatario.Paths[Merge Join Output]"
+          TopLeft="239.5,420.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="110,0"
+              EndConnector="71.5,0"
               Start="0,0"
-              End="102.5,0">
+              End="64,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="102.5,0" />
+                    End="64,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14034,24 +14010,40 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Prestatario.Paths[Lookup Match Output]"
+          TopLeft="426,419">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89,0"
+              Start="0,0"
+              End="81.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="81.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-7.44138671875,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Prestatario\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Prestatario\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14061,8 +14053,16 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Prestatario\SQL Server Destination">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -14410,7 +14410,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14420,7 +14420,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14433,6 +14433,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="194,42"
+          Id="Package\Carga Tasa\SQL Server Destination"
+          TopLeft="322,329" />
+        <NodeLayout
           Size="132,42"
           Id="Package\Carga Tasa\Prestamos"
           TopLeft="362,39" />
@@ -14441,13 +14445,31 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\Carga Tasa\Derived Column"
           TopLeft="346,145" />
         <NodeLayout
-          Size="194,42"
-          Id="Package\Carga Tasa\SQL Server Destination"
-          TopLeft="322,329" />
-        <NodeLayout
           Size="161,42"
           Id="Package\Carga Tasa\Data Conversion"
           TopLeft="344,233" />
+        <EdgeLayout
+          Id="Package\Carga Tasa.Paths[Flat File Source Output]"
+          TopLeft="426.5,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,64"
+              Start="0,0"
+              End="0,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Tasa.Paths[Derived Column Output]"
           TopLeft="424.75,187">
@@ -14484,28 +14506,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Tasa.Paths[Flat File Source Output]"
-          TopLeft="426.5,81">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,64"
-              Start="0,0"
-              End="0,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,56.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
