@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CargaHechos"
   DTS:PackageType="5"
-  DTS:VersionBuild="201"
-  DTS:VersionGUID="{84AC9691-6179-4B73-9D94-0CA1B7CD69E7}">
+  DTS:VersionBuild="203"
+  DTS:VersionGUID="{678354D2-65A6-4C7F-9509-C32A6ACDE5C0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1554,6 +1554,13 @@
                       cachedPrecision="5"
                       cachedScale="2"
                       lineageId="Package\Data Flow Task\Lookup DimTasa.Outputs[Lookup Match Output].Columns[TasaInteres]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived TasaFinal y EstadoPago.Inputs[Derived Column Input].Columns[loan_amnt]"
+                      cachedDataType="numeric"
+                      cachedName="loan_amnt"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      lineageId="Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1610,6 +1617,29 @@
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_BOOL)(loan_status == "Fully Paid" ? 1 : 0)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived TasaFinal y EstadoPago.Outputs[Derived Column Output].Columns[CategoriaMonto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="9"
+                      lineageId="Package\Data Flow Task\Derived TasaFinal y EstadoPago.Outputs[Derived Column Output].Columns[CategoriaMonto]"
+                      name="CategoriaMonto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]} &lt;= 3325 ? "Muy Bajo" : #{Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]} &lt;= 8000 ? "Bajo" : #{Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]} &lt;= 13000 ? "Medio" : #{Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]} &lt;= 20000 ? "Alto" : " Muy Alto"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">loan_amnt &lt;= 3325 ? "Muy Bajo" : loan_amnt &lt;= 8000 ? "Bajo" : loan_amnt &lt;= 13000 ? "Medio" : loan_amnt &lt;= 20000 ? "Alto" : " Muy Alto"</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -4823,6 +4853,13 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       cachedScale="2"
                       externalMetadataColumnId="Package\Data Flow Task\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[MontoPrestamo]"
                       lineageId="Package\Data Flow Task\Merge Join.Outputs[Merge Join Output].Columns[loan_amnt]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\SQL Server Destination.Inputs[SQL Server Destination Input].Columns[CategoriaMonto]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="CategoriaMonto"
+                      externalMetadataColumnId="Package\Data Flow Task\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[CategoriaMonto]"
+                      lineageId="Package\Data Flow Task\Derived TasaFinal y EstadoPago.Outputs[Derived Column Output].Columns[CategoriaMonto]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4884,6 +4921,11 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                       refId="Package\Data Flow Task\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[EstadoPago]"
                       dataType="bool"
                       name="EstadoPago" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\SQL Server Destination.Inputs[SQL Server Destination Input].ExternalColumns[CategoriaMonto]"
+                      dataType="wstr"
+                      length="20"
+                      name="CategoriaMonto" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -5477,25 +5519,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="194,42"
-          Id="Package\Data Flow Task\SQL Server Destination"
-          TopLeft="140,794" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Data Flow Task\Lookup DimSucursal"
-          TopLeft="395,725" />
-        <NodeLayout
-          Size="184,42"
-          Id="Package\Data Flow Task\Lookup DimFechaFin"
-          TopLeft="865,629" />
-        <NodeLayout
           Size="190,42"
           Id="Package\Data Flow Task\Lookup DimDescuento"
           TopLeft="829,727" />
-        <NodeLayout
-          Size="99,42"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="292,436" />
         <NodeLayout
           Size="162,42"
           Id="Package\Data Flow Task\Lookup DimTasa"
@@ -5509,6 +5535,34 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\Data Flow Task\Lookup DimUbicacion"
           TopLeft="597,726" />
         <NodeLayout
+          Size="108,42"
+          Id="Package\Data Flow Task\Sort 1"
+          TopLeft="56,435" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Data Flow Task\Lookup DimPrestatario"
+          TopLeft="109,642" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Data Flow Task\Merge Join"
+          TopLeft="137,546" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="292,436" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Data Flow Task\Lookup DimSucursal"
+          TopLeft="395,725" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Data Flow Task\Lookup DimFechaFin"
+          TopLeft="865,629" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Data Flow Task\Staging Prestamos"
+          TopLeft="29,349" />
+        <NodeLayout
           Size="116,42"
           Id="Package\Data Flow Task\clientes"
           TopLeft="284,346" />
@@ -5517,9 +5571,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\Data Flow Task\Derived TasaFinal y EstadoPago"
           TopLeft="128,721" />
         <NodeLayout
-          Size="191,42"
-          Id="Package\Data Flow Task\Lookup DimPrestatario"
-          TopLeft="109,642" />
+          Size="194,42"
+          Id="Package\Data Flow Task\SQL Server Destination"
+          TopLeft="140,794" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output]"
           TopLeft="395,744">
@@ -5592,6 +5646,118 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
                     Point3="-11,19.5" />
                   <mssgle:LineSegment
                     End="-11,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output1]"
+          TopLeft="341.5,478">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-117.166666666667,68"
+              Start="0,0"
+              End="-117.166666666667,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.3150074294206" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.3150074294206"
+                    Point2="0,40.3150074294206"
+                    Point3="-4,40.3150074294206" />
+                  <mssgle:LineSegment
+                    End="-113.166666666667,40.3150074294206" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-113.166666666667,40.3150074294206"
+                    Point2="-117.166666666667,40.3150074294206"
+                    Point3="-117.166666666667,44.3150074294206" />
+                  <mssgle:LineSegment
+                    End="-117.166666666667,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output]"
+          TopLeft="110,477">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="93.5,69"
+              Start="0,0"
+              End="93.5,61.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.5"
+                    Point2="0,34.5"
+                    Point3="4,34.5" />
+                  <mssgle:LineSegment
+                    End="89.5,34.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="89.5,34.5"
+                    Point2="93.5,34.5"
+                    Point3="93.5,38.5" />
+                  <mssgle:LineSegment
+                    End="93.5,61.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          TopLeft="112.5,391">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Merge Join Output]"
+          TopLeft="204,588">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54"
+              Start="0,0"
+              End="0,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5768,194 +5934,16 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Data Flow Task\Staging Prestamos"
-          TopLeft="29,349" />
-        <NodeLayout
-          Size="108,42"
-          Id="Package\Data Flow Task\Sort 1"
-          TopLeft="56,435" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="112.5,391">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Data Flow Task\Merge Join"
-          TopLeft="137,546" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="110,477">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="93.5,69"
-              Start="0,0"
-              End="93.5,61.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.5"
-                    Point2="0,34.5"
-                    Point3="4,34.5" />
-                  <mssgle:LineSegment
-                    End="89.5,34.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="89.5,34.5"
-                    Point2="93.5,34.5"
-                    Point3="93.5,38.5" />
-                  <mssgle:LineSegment
-                    End="93.5,61.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output1]"
-          TopLeft="341.5,478">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-117.166666666667,68"
-              Start="0,0"
-              End="-117.166666666667,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.3150074294206" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.3150074294206"
-                    Point2="0,40.3150074294206"
-                    Point3="-4,40.3150074294206" />
-                  <mssgle:LineSegment
-                    End="-113.166666666667,40.3150074294206" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-113.166666666667,40.3150074294206"
-                    Point2="-117.166666666667,40.3150074294206"
-                    Point3="-117.166666666667,44.3150074294206" />
-                  <mssgle:LineSegment
-                    End="-117.166666666667,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Merge Join Output]"
-          TopLeft="204,588">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54"
-              Start="0,0"
-              End="0,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Lookup DimSucursal">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimSucursal]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Lookup DimFechaFin">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimTiempo]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Lookup DimDescuento">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5965,7 +5953,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5978,7 +5966,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5988,7 +5976,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6001,7 +5989,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6011,7 +5999,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6024,7 +6012,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6047,7 +6035,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6057,7 +6045,53 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Lookup DimSucursal">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimSucursal]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Lookup DimFechaFin">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimTiempo]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6074,6 +6108,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\SQL Server Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
